@@ -17,10 +17,13 @@
     
     MenuItem *item1 = [[MenuItem alloc] init];
     item1.menuTitle = @"HOME";
+    //enum defined in supporting files < prefix.pch
+    item1.screenType = ScreentypeHome;
     [menuItemArray addObject:item1];
     
     MenuItem *item2 = [[MenuItem alloc] init];
     item2.menuTitle = @"VENUES";
+    item2.screenType = ScreentypeVenues;
     [menuItemArray addObject:item2];
     
     MenuItem *item3 = [[MenuItem alloc] init];
@@ -45,6 +48,7 @@
     
     MenuItem *item8 = [[MenuItem alloc] init];
     item8.menuTitle = @"ABOUT";
+    item8.screenType = ScreentypeAbout;
     [menuItemArray addObject:item8];
     
     return menuItemArray;

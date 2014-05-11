@@ -7,6 +7,7 @@
 //
 
 #import "MenuViewController.h"
+#import "SWRevealViewController.h"
 
 @interface MenuViewController ()
 
@@ -62,6 +63,44 @@
     menuCell.textLabel.text = item.menuTitle;
     
     return menuCell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //check which item was tapped
+    MenuItem *item = self.menuItems[indexPath.row];
+    
+    switch (item.screenType) {
+        case ScreentypeHome:
+            //go to home
+            [self performSegueWithIdentifier:@"HomeSegue" sender:self];
+            break;
+        
+        case ScreentypeVenues:
+            //go to venues
+            [self performSegueWithIdentifier:@"VenuesSegue" sender:self];
+            break;
+        
+        case ScreentypeAbout:
+            //go to abouot
+            [self performSegueWithIdentifier:@"AboutSegue" sender:self];
+            break;
+            
+        default:
+            break;
+    }
+        
+}
+
+#pragma Segue Methods
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    //set the front viewcontroller to be the destination one
+    [self.revealViewController setFrontViewController:segue.destinationViewController];
+    
+    //slide the front viewcontroller back into place
+    [self.revealViewController revealToggleAnimated:YES];
 }
 
 /*

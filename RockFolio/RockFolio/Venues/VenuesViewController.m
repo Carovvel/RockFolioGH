@@ -7,6 +7,7 @@
 //
 
 #import "VenuesViewController.h"
+#import "SWRevealViewController.h"
 
 @interface VenuesViewController ()
 
@@ -27,6 +28,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
 }
 
 - (void)didReceiveMemoryWarning

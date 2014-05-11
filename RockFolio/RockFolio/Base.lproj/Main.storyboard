@@ -34,7 +34,7 @@
                     <view key="view" contentMode="scaleToFill" id="X1W-41-r26">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wdt-ou-yAc" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -149,6 +149,9 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="JkT-mN-RIe" id="bN7-n0-1Aa"/>
+                        <segue destination="Dqo-xT-tI2" kind="custom" identifier="AboutSegue" customClass="SWRevealViewControllerSegue" id="WmF-AT-cOO"/>
+                        <segue destination="vXZ-lx-hvc" kind="custom" identifier="HomeSegue" customClass="SWRevealViewControllerSegue" id="6Sy-cp-HO1"/>
+                        <segue destination="wdO-xt-TUV" kind="custom" identifier="VenuesSegue" customClass="SWRevealViewControllerSegue" id="YzS-cr-H8V"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VnZ-2w-QdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -166,7 +169,7 @@
                     <view key="view" contentMode="scaleToFill" id="hnp-bN-2XC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.27450980390000002" green="0.27450980390000002" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kzn-Lp-zig" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -197,4 +200,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="6Sy-cp-HO1"/>
+    </inferredMetricsTieBreakers>
 </document>

@@ -14,13 +14,19 @@
 		970C7BC0191FDD8000441833 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BBF191FDD8000441833 /* main.m */; };
 		970C7BC4191FDD8000441833 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BC3191FDD8000441833 /* AppDelegate.m */; };
 		970C7BC7191FDD8000441833 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970C7BC5191FDD8000441833 /* Main.storyboard */; };
-		970C7BCA191FDD8000441833 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BC9191FDD8000441833 /* ViewController.m */; };
 		970C7BCC191FDD8000441833 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970C7BCB191FDD8000441833 /* Images.xcassets */; };
 		970C7BD3191FDD8000441833 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970C7BD2191FDD8000441833 /* XCTest.framework */; };
 		970C7BD4191FDD8000441833 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970C7BB3191FDD8000441833 /* Foundation.framework */; };
 		970C7BD5191FDD8000441833 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970C7BB7191FDD8000441833 /* UIKit.framework */; };
 		970C7BDD191FDD8000441833 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 970C7BDB191FDD8000441833 /* InfoPlist.strings */; };
 		970C7BDF191FDD8000441833 /* RockFolioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BDE191FDD8000441833 /* RockFolioTests.m */; };
+		970C7BF1191FE0BF00441833 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BF0191FE0BF00441833 /* SWRevealViewController.m */; };
+		970C7BF5191FE23B00441833 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BF4191FE23B00441833 /* HomeViewController.m */; };
+		970C7BF8191FE26100441833 /* BandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BF7191FE26100441833 /* BandViewController.m */; };
+		970C7BFB191FE27100441833 /* BandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BFA191FE27100441833 /* BandsViewController.m */; };
+		970C7BFE191FE28000441833 /* VenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BFD191FE28000441833 /* VenuesViewController.m */; };
+		970C7C01191FE29000441833 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C00191FE29000441833 /* MenuViewController.m */; };
+		970C7C04191FE2AA00441833 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C03191FE2AA00441833 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +51,26 @@
 		970C7BC2191FDD8000441833 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		970C7BC3191FDD8000441833 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		970C7BC6191FDD8000441833 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		970C7BC8191FDD8000441833 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		970C7BC9191FDD8000441833 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		970C7BCB191FDD8000441833 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		970C7BD1191FDD8000441833 /* RockFolioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockFolioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		970C7BD2191FDD8000441833 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		970C7BDA191FDD8000441833 /* RockFolioTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RockFolioTests-Info.plist"; sourceTree = "<group>"; };
 		970C7BDC191FDD8000441833 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		970C7BDE191FDD8000441833 /* RockFolioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RockFolioTests.m; sourceTree = "<group>"; };
+		970C7BEF191FE0BF00441833 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = RevealViewController/SWRevealViewController.h; sourceTree = "<group>"; };
+		970C7BF0191FE0BF00441833 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = RevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
+		970C7BF3191FE23B00441833 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Home/HomeViewController.h; sourceTree = "<group>"; };
+		970C7BF4191FE23B00441833 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Home/HomeViewController.m; sourceTree = "<group>"; };
+		970C7BF6191FE26100441833 /* BandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BandViewController.h; path = Band/BandViewController.h; sourceTree = "<group>"; };
+		970C7BF7191FE26100441833 /* BandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BandViewController.m; path = Band/BandViewController.m; sourceTree = "<group>"; };
+		970C7BF9191FE27100441833 /* BandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BandsViewController.h; path = Bands/BandsViewController.h; sourceTree = "<group>"; };
+		970C7BFA191FE27100441833 /* BandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BandsViewController.m; path = Bands/BandsViewController.m; sourceTree = "<group>"; };
+		970C7BFC191FE28000441833 /* VenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VenuesViewController.h; path = Venues/VenuesViewController.h; sourceTree = "<group>"; };
+		970C7BFD191FE28000441833 /* VenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VenuesViewController.m; path = Venues/VenuesViewController.m; sourceTree = "<group>"; };
+		970C7BFF191FE29000441833 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Menu/MenuViewController.h; sourceTree = "<group>"; };
+		970C7C00191FE29000441833 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Menu/MenuViewController.m; sourceTree = "<group>"; };
+		970C7C02191FE2AA00441833 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = About/AboutViewController.h; sourceTree = "<group>"; };
+		970C7C03191FE2AA00441833 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = About/AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +133,13 @@
 				970C7BC2191FDD8000441833 /* AppDelegate.h */,
 				970C7BC3191FDD8000441833 /* AppDelegate.m */,
 				970C7BC5191FDD8000441833 /* Main.storyboard */,
-				970C7BC8191FDD8000441833 /* ViewController.h */,
-				970C7BC9191FDD8000441833 /* ViewController.m */,
+				970C7BF2191FE21C00441833 /* Home */,
+				970C7BEA191FE00300441833 /* Menu */,
+				970C7BEB191FE00C00441833 /* Venues */,
+				970C7BEC191FE01D00441833 /* Bands */,
+				970C7BEE191FE04800441833 /* Band */,
+				970C7BE9191FDFF300441833 /* About */,
+				970C7BE8191FDFC900441833 /* RevealViewController */,
 				970C7BCB191FDD8000441833 /* Images.xcassets */,
 				970C7BBA191FDD8000441833 /* Supporting Files */,
 			);
@@ -150,6 +173,69 @@
 				970C7BDB191FDD8000441833 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		970C7BE8191FDFC900441833 /* RevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				970C7BEF191FE0BF00441833 /* SWRevealViewController.h */,
+				970C7BF0191FE0BF00441833 /* SWRevealViewController.m */,
+			);
+			name = RevealViewController;
+			sourceTree = "<group>";
+		};
+		970C7BE9191FDFF300441833 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				970C7C02191FE2AA00441833 /* AboutViewController.h */,
+				970C7C03191FE2AA00441833 /* AboutViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		970C7BEA191FE00300441833 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				970C7BFF191FE29000441833 /* MenuViewController.h */,
+				970C7C00191FE29000441833 /* MenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		970C7BEB191FE00C00441833 /* Venues */ = {
+			isa = PBXGroup;
+			children = (
+				970C7BFC191FE28000441833 /* VenuesViewController.h */,
+				970C7BFD191FE28000441833 /* VenuesViewController.m */,
+			);
+			name = Venues;
+			sourceTree = "<group>";
+		};
+		970C7BEC191FE01D00441833 /* Bands */ = {
+			isa = PBXGroup;
+			children = (
+				970C7BF9191FE27100441833 /* BandsViewController.h */,
+				970C7BFA191FE27100441833 /* BandsViewController.m */,
+			);
+			name = Bands;
+			sourceTree = "<group>";
+		};
+		970C7BEE191FE04800441833 /* Band */ = {
+			isa = PBXGroup;
+			children = (
+				970C7BF6191FE26100441833 /* BandViewController.h */,
+				970C7BF7191FE26100441833 /* BandViewController.m */,
+			);
+			name = Band;
+			sourceTree = "<group>";
+		};
+		970C7BF2191FE21C00441833 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				970C7BF3191FE23B00441833 /* HomeViewController.h */,
+				970C7BF4191FE23B00441833 /* HomeViewController.m */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +335,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				970C7BCA191FDD8000441833 /* ViewController.m in Sources */,
+				970C7C04191FE2AA00441833 /* AboutViewController.m in Sources */,
 				970C7BC4191FDD8000441833 /* AppDelegate.m in Sources */,
 				970C7BC0191FDD8000441833 /* main.m in Sources */,
+				970C7BFE191FE28000441833 /* VenuesViewController.m in Sources */,
+				970C7C01191FE29000441833 /* MenuViewController.m in Sources */,
+				970C7BF8191FE26100441833 /* BandViewController.m in Sources */,
+				970C7BFB191FE27100441833 /* BandsViewController.m in Sources */,
+				970C7BF1191FE0BF00441833 /* SWRevealViewController.m in Sources */,
+				970C7BF5191FE23B00441833 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

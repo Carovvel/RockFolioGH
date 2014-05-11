@@ -27,7 +27,9 @@
 		970C7BFE191FE28000441833 /* VenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BFD191FE28000441833 /* VenuesViewController.m */; };
 		970C7C01191FE29000441833 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C00191FE29000441833 /* MenuViewController.m */; };
 		970C7C04191FE2AA00441833 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C03191FE2AA00441833 /* AboutViewController.m */; };
-		970C7C08191FE5E000441833 /* FotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C07191FE5E000441833 /* FotoViewController.m */; };
+		970C7C0B191FEE7D00441833 /* FotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C0A191FEE7D00441833 /* FotoViewController.m */; };
+		970C7C0E191FFB2F00441833 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C0D191FFB2F00441833 /* MenuModel.m */; };
+		970C7C11191FFDD800441833 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C10191FFDD800441833 /* MenuItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,8 +74,12 @@
 		970C7C00191FE29000441833 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Menu/MenuViewController.m; sourceTree = "<group>"; };
 		970C7C02191FE2AA00441833 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = About/AboutViewController.h; sourceTree = "<group>"; };
 		970C7C03191FE2AA00441833 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = About/AboutViewController.m; sourceTree = "<group>"; };
-		970C7C06191FE5E000441833 /* FotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FotoViewController.h; path = "Foto's/FotoViewController.h"; sourceTree = "<group>"; };
-		970C7C07191FE5E000441833 /* FotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FotoViewController.m; path = "Foto's/FotoViewController.m"; sourceTree = "<group>"; };
+		970C7C09191FEE7D00441833 /* FotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FotoViewController.h; path = "Foto's/FotoViewController.h"; sourceTree = "<group>"; };
+		970C7C0A191FEE7D00441833 /* FotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FotoViewController.m; path = "Foto's/FotoViewController.m"; sourceTree = "<group>"; };
+		970C7C0C191FFB2F00441833 /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuModel.h; path = Menu/MenuModel.h; sourceTree = "<group>"; };
+		970C7C0D191FFB2F00441833 /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuModel.m; path = Menu/MenuModel.m; sourceTree = "<group>"; };
+		970C7C0F191FFDD800441833 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItem.h; path = Menu/MenuItem.h; sourceTree = "<group>"; };
+		970C7C10191FFDD800441833 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuItem.m; path = Menu/MenuItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +208,10 @@
 			children = (
 				970C7BFF191FE29000441833 /* MenuViewController.h */,
 				970C7C00191FE29000441833 /* MenuViewController.m */,
+				970C7C0C191FFB2F00441833 /* MenuModel.h */,
+				970C7C0D191FFB2F00441833 /* MenuModel.m */,
+				970C7C0F191FFDD800441833 /* MenuItem.h */,
+				970C7C10191FFDD800441833 /* MenuItem.m */,
 			);
 			name = Menu;
 			sourceTree = "<group>";
@@ -245,8 +255,8 @@
 		970C7C05191FE5C400441833 /* Foto's */ = {
 			isa = PBXGroup;
 			children = (
-				970C7C06191FE5E000441833 /* FotoViewController.h */,
-				970C7C07191FE5E000441833 /* FotoViewController.m */,
+				970C7C09191FEE7D00441833 /* FotoViewController.h */,
+				970C7C0A191FEE7D00441833 /* FotoViewController.m */,
 			);
 			name = "Foto's";
 			sourceTree = "<group>";
@@ -356,7 +366,9 @@
 				970C7BF8191FE26100441833 /* BandViewController.m in Sources */,
 				970C7BFB191FE27100441833 /* BandsViewController.m in Sources */,
 				970C7BF1191FE0BF00441833 /* SWRevealViewController.m in Sources */,
-				970C7C08191FE5E000441833 /* FotoViewController.m in Sources */,
+				970C7C0B191FEE7D00441833 /* FotoViewController.m in Sources */,
+				970C7C11191FFDD800441833 /* MenuItem.m in Sources */,
+				970C7C0E191FFB2F00441833 /* MenuModel.m in Sources */,
 				970C7BF5191FE23B00441833 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -562,6 +574,7 @@
 				970C7BE4191FDD8000441833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		970C7BE5191FDD8000441833 /* Build configuration list for PBXNativeTarget "RockFolioTests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +583,7 @@
 				970C7BE7191FDD8000441833 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

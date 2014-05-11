@@ -27,12 +27,41 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //set self as the data source and delegate for the table view
+    self.tableView.delegate = self;
+    self.tableView.dataSource = self;
+    
+    //fetch the menu items
+    self.menuItems = [[[MenuModel alloc] init] getMenuItems];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark Table View Delegate Methods
+
+- (int)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    return self.menuItems.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    //retrieve cell
+    NSString *cellIdentifier = @"MenuItemCell";
+    UITableViewCell *menuCell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+   
+    //get menuitem that it's asking for
+    MenuItem *item = self.menuItems[indexPath.row];
+    
+    //set menu item text and icon
+    menuCell.textLabel.text = item.menuTitle;
+    
+    return menuCell;
 }
 
 /*

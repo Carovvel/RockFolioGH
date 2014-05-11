@@ -115,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FeY-mW-7LX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-339" y="303"/>
+            <point key="canvasLocation" x="609" y="339"/>
         </scene>
         <!--Menu View Controller-->
         <scene sceneID="noJ-zY-Jfm">
@@ -147,10 +147,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.27450980392156865" green="0.27450980392156865" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="JkT-mN-RIe" id="bN7-n0-1Aa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VnZ-2w-QdJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="191" y="747"/>
+            <point key="canvasLocation" x="1139" y="783"/>
         </scene>
         <!--About View Controller-->
         <scene sceneID="J3K-iX-9Q3">
@@ -168,7 +171,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kzn-Lp-zig" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="601" y="747"/>
+            <point key="canvasLocation" x="1549" y="783"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Qf3-1r-8tR">

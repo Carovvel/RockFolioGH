@@ -18,5 +18,10 @@
 enum Screentype {
     ScreentypeHome,
     ScreentypeVenues,
+    ScreentypeRataplan,
+    ScreentypeTrix,
+    ScreentypePetrol,
+    ScreentypeArenberg,
+    ScreentypeAB,
     ScreentypeAbout
 };

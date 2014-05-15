@@ -1,18 +1,19 @@
 //
-//  BandsViewController.m
+//  TrixViewController.m
 //  RockFolio
 //
-//  Created by Caroline Van Velthoven on 11/05/14.
+//  Created by Caroline Van Velthoven on 15/05/14.
 //  Copyright (c) 2014 Caroline Van Velthoven. All rights reserved.
 //
 
-#import "BandsViewController.h"
+#import "TrixViewController.h"
+#import "SWRevealViewController.h"
 
-@interface BandsViewController ()
+@interface TrixViewController ()
 
 @end
 
-@implementation BandsViewController
+@implementation TrixViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -27,6 +28,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
 }
 
 - (void)didReceiveMemoryWarning

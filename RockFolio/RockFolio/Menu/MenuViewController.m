@@ -54,7 +54,7 @@
 //set height of rows to 60
 - (float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 63.0;
+    return 61.5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -91,6 +91,31 @@
         case ScreentypeVenues:
             //go to venues
             [self performSegueWithIdentifier:@"VenuesSegue" sender:self];
+            break;
+            
+        case ScreentypeRataplan:
+            //go to venues
+            [self performSegueWithIdentifier:@"RataplanSegue" sender:self];
+            break;
+            
+        case ScreentypeTrix:
+            //go to venues
+            [self performSegueWithIdentifier:@"TrixSegue" sender:self];
+            break;
+            
+        case ScreentypePetrol:
+            //go to venues
+            [self performSegueWithIdentifier:@"PetrolSegue" sender:self];
+            break;
+            
+        case ScreentypeArenberg:
+            //go to venues
+            [self performSegueWithIdentifier:@"ArenbergSegue" sender:self];
+            break;
+            
+        case ScreentypeAB:
+            //go to venues
+            [self performSegueWithIdentifier:@"ABSegue" sender:self];
             break;
         
         case ScreentypeAbout:

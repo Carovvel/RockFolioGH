@@ -23,13 +23,17 @@
 		970C7BF1191FE0BF00441833 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BF0191FE0BF00441833 /* SWRevealViewController.m */; };
 		970C7BF5191FE23B00441833 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BF4191FE23B00441833 /* HomeViewController.m */; };
 		970C7BF8191FE26100441833 /* BandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BF7191FE26100441833 /* BandViewController.m */; };
-		970C7BFB191FE27100441833 /* BandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BFA191FE27100441833 /* BandsViewController.m */; };
 		970C7BFE191FE28000441833 /* VenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BFD191FE28000441833 /* VenuesViewController.m */; };
 		970C7C01191FE29000441833 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C00191FE29000441833 /* MenuViewController.m */; };
 		970C7C04191FE2AA00441833 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C03191FE2AA00441833 /* AboutViewController.m */; };
 		970C7C0B191FEE7D00441833 /* FotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C0A191FEE7D00441833 /* FotoViewController.m */; };
 		970C7C0E191FFB2F00441833 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C0D191FFB2F00441833 /* MenuModel.m */; };
 		970C7C11191FFDD800441833 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C10191FFDD800441833 /* MenuItem.m */; };
+		97BFF0EC1925263D003FAF37 /* TrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0EB1925263D003FAF37 /* TrixViewController.m */; };
+		97BFF0EF19252667003FAF37 /* PetrolViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0EE19252667003FAF37 /* PetrolViewController.m */; };
+		97BFF0F219252677003FAF37 /* ArenbergViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0F119252677003FAF37 /* ArenbergViewController.m */; };
+		97BFF0F519252686003FAF37 /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0F419252685003FAF37 /* ABViewController.m */; };
+		97BFF0F8192526F2003FAF37 /* RataplanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0F7192526F2003FAF37 /* RataplanViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,8 +70,6 @@
 		970C7BF4191FE23B00441833 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Home/HomeViewController.m; sourceTree = "<group>"; };
 		970C7BF6191FE26100441833 /* BandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BandViewController.h; path = Band/BandViewController.h; sourceTree = "<group>"; };
 		970C7BF7191FE26100441833 /* BandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BandViewController.m; path = Band/BandViewController.m; sourceTree = "<group>"; };
-		970C7BF9191FE27100441833 /* BandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BandsViewController.h; path = Bands/BandsViewController.h; sourceTree = "<group>"; };
-		970C7BFA191FE27100441833 /* BandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BandsViewController.m; path = Bands/BandsViewController.m; sourceTree = "<group>"; };
 		970C7BFC191FE28000441833 /* VenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VenuesViewController.h; path = Venues/VenuesViewController.h; sourceTree = "<group>"; };
 		970C7BFD191FE28000441833 /* VenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VenuesViewController.m; path = Venues/VenuesViewController.m; sourceTree = "<group>"; };
 		970C7BFF191FE29000441833 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Menu/MenuViewController.h; sourceTree = "<group>"; };
@@ -80,6 +82,16 @@
 		970C7C0D191FFB2F00441833 /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuModel.m; path = Menu/MenuModel.m; sourceTree = "<group>"; };
 		970C7C0F191FFDD800441833 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItem.h; path = Menu/MenuItem.h; sourceTree = "<group>"; };
 		970C7C10191FFDD800441833 /* MenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuItem.m; path = Menu/MenuItem.m; sourceTree = "<group>"; };
+		97BFF0EA1925263D003FAF37 /* TrixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrixViewController.h; path = Bands/TrixViewController.h; sourceTree = "<group>"; };
+		97BFF0EB1925263D003FAF37 /* TrixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrixViewController.m; path = Bands/TrixViewController.m; sourceTree = "<group>"; };
+		97BFF0ED19252667003FAF37 /* PetrolViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PetrolViewController.h; path = Bands/PetrolViewController.h; sourceTree = "<group>"; };
+		97BFF0EE19252667003FAF37 /* PetrolViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PetrolViewController.m; path = Bands/PetrolViewController.m; sourceTree = "<group>"; };
+		97BFF0F019252677003FAF37 /* ArenbergViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ArenbergViewController.h; path = Bands/ArenbergViewController.h; sourceTree = "<group>"; };
+		97BFF0F119252677003FAF37 /* ArenbergViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ArenbergViewController.m; path = Bands/ArenbergViewController.m; sourceTree = "<group>"; };
+		97BFF0F319252685003FAF37 /* ABViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABViewController.h; path = Bands/ABViewController.h; sourceTree = "<group>"; };
+		97BFF0F419252685003FAF37 /* ABViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABViewController.m; path = Bands/ABViewController.m; sourceTree = "<group>"; };
+		97BFF0F6192526F2003FAF37 /* RataplanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RataplanViewController.h; path = Bands/RataplanViewController.h; sourceTree = "<group>"; };
+		97BFF0F7192526F2003FAF37 /* RataplanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RataplanViewController.m; path = Bands/RataplanViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,8 +240,16 @@
 		970C7BEC191FE01D00441833 /* Bands */ = {
 			isa = PBXGroup;
 			children = (
-				970C7BF9191FE27100441833 /* BandsViewController.h */,
-				970C7BFA191FE27100441833 /* BandsViewController.m */,
+				97BFF0F6192526F2003FAF37 /* RataplanViewController.h */,
+				97BFF0F7192526F2003FAF37 /* RataplanViewController.m */,
+				97BFF0EA1925263D003FAF37 /* TrixViewController.h */,
+				97BFF0EB1925263D003FAF37 /* TrixViewController.m */,
+				97BFF0ED19252667003FAF37 /* PetrolViewController.h */,
+				97BFF0EE19252667003FAF37 /* PetrolViewController.m */,
+				97BFF0F019252677003FAF37 /* ArenbergViewController.h */,
+				97BFF0F119252677003FAF37 /* ArenbergViewController.m */,
+				97BFF0F319252685003FAF37 /* ABViewController.h */,
+				97BFF0F419252685003FAF37 /* ABViewController.m */,
 			);
 			name = Bands;
 			sourceTree = "<group>";
@@ -361,15 +381,19 @@
 				970C7C04191FE2AA00441833 /* AboutViewController.m in Sources */,
 				970C7BC4191FDD8000441833 /* AppDelegate.m in Sources */,
 				970C7BC0191FDD8000441833 /* main.m in Sources */,
+				97BFF0F219252677003FAF37 /* ArenbergViewController.m in Sources */,
 				970C7BFE191FE28000441833 /* VenuesViewController.m in Sources */,
+				97BFF0F8192526F2003FAF37 /* RataplanViewController.m in Sources */,
 				970C7C01191FE29000441833 /* MenuViewController.m in Sources */,
 				970C7BF8191FE26100441833 /* BandViewController.m in Sources */,
-				970C7BFB191FE27100441833 /* BandsViewController.m in Sources */,
 				970C7BF1191FE0BF00441833 /* SWRevealViewController.m in Sources */,
+				97BFF0EF19252667003FAF37 /* PetrolViewController.m in Sources */,
 				970C7C0B191FEE7D00441833 /* FotoViewController.m in Sources */,
 				970C7C11191FFDD800441833 /* MenuItem.m in Sources */,
 				970C7C0E191FFB2F00441833 /* MenuModel.m in Sources */,
+				97BFF0EC1925263D003FAF37 /* TrixViewController.m in Sources */,
 				970C7BF5191FE23B00441833 /* HomeViewController.m in Sources */,
+				97BFF0F519252686003FAF37 /* ABViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

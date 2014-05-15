@@ -8,6 +8,7 @@
 
 #import "MenuViewController.h"
 #import "SWRevealViewController.h"
+#import "MenuModel.h"
 
 @interface MenuViewController ()
 
@@ -50,6 +51,12 @@
     return self.menuItems.count;
 }
 
+//set height of rows to 60
+- (float)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 63.0;
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     //retrieve cell
@@ -59,8 +66,13 @@
     //get menuitem that it's asking for
     MenuItem *item = self.menuItems[indexPath.row];
     
+    //get image view
+    UIImageView *iconImageView = (UIImageView *) [menuCell viewWithTag:2];
+    UILabel *menuItemTitle = (UILabel *) [menuCell viewWithTag:1];
+    
     //set menu item text and icon
-    menuCell.textLabel.text = item.menuTitle;
+    menuItemTitle.text = item.menuTitle;
+    iconImageView.image = [UIImage imageNamed:item.menuIcon];
     
     return menuCell;
 }

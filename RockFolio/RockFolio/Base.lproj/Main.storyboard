@@ -366,6 +366,38 @@
                                 <rect key="frame" x="260" y="23" width="43" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto1" translatesAutoresizingMaskIntoConstraints="NO" id="wx2-VK-tcI">
+                                <rect key="frame" x="47" y="108" width="91" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto2" translatesAutoresizingMaskIntoConstraints="NO" id="VfL-iO-Juw">
+                                <rect key="frame" x="182" y="108" width="91" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto3" translatesAutoresizingMaskIntoConstraints="NO" id="Fxs-eq-RKY">
+                                <rect key="frame" x="47" y="217" width="91" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto4" translatesAutoresizingMaskIntoConstraints="NO" id="BBd-bD-rth">
+                                <rect key="frame" x="182" y="217" width="91" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto5" translatesAutoresizingMaskIntoConstraints="NO" id="HPx-ZD-oNX">
+                                <rect key="frame" x="47" y="327" width="91" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto6" translatesAutoresizingMaskIntoConstraints="NO" id="CQC-Ig-8ob">
+                                <rect key="frame" x="182" y="327" width="91" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto7" translatesAutoresizingMaskIntoConstraints="NO" id="fGP-PA-RHp">
+                                <rect key="frame" x="47" y="434" width="91" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto8" translatesAutoresizingMaskIntoConstraints="NO" id="sG0-KA-lyE">
+                                <rect key="frame" x="182" y="434" width="91" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -786,6 +818,14 @@
         <image name="MarbleSoundsbutton" width="234" height="88"/>
         <image name="Navigationbutton" width="36" height="34"/>
         <image name="Okon&amp;TheMovementbutton" width="234" height="88"/>
+        <image name="Okonfoto1" width="120" height="88"/>
+        <image name="Okonfoto2" width="120" height="88"/>
+        <image name="Okonfoto3" width="120" height="88"/>
+        <image name="Okonfoto4" width="120" height="88"/>
+        <image name="Okonfoto5" width="120" height="88"/>
+        <image name="Okonfoto6" width="120" height="88"/>
+        <image name="Okonfoto7" width="120" height="88"/>
+        <image name="Okonfoto8" width="120" height="88"/>
         <image name="OthinSpakebutton" width="234" height="88"/>
         <image name="ReenaRiotbutton" width="234" height="88"/>
         <image name="ReutRegevbutton" width="234" height="88"/>

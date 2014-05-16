@@ -7,6 +7,7 @@
 //
 
 #import "MarbleSoundsViewController.h"
+#import "SWRevealViewController.h"
 
 @interface MarbleSoundsViewController ()
 
@@ -27,6 +28,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
 }
 
 - (void)didReceiveMemoryWarning

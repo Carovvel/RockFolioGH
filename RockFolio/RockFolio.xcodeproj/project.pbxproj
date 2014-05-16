@@ -34,6 +34,8 @@
 		97BFF0F219252677003FAF37 /* ArenbergViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0F119252677003FAF37 /* ArenbergViewController.m */; };
 		97BFF0F519252686003FAF37 /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0F419252685003FAF37 /* ABViewController.m */; };
 		97BFF0F8192526F2003FAF37 /* RataplanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0F7192526F2003FAF37 /* RataplanViewController.m */; };
+		97BFF10419268F8F003FAF37 /* CustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF10119268F8F003FAF37 /* CustomSegue.m */; };
+		97BFF10519268F8F003FAF37 /* CustomUnwindSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF10319268F8F003FAF37 /* CustomUnwindSegue.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,10 @@
 		97BFF0F419252685003FAF37 /* ABViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABViewController.m; path = Bands/ABViewController.m; sourceTree = "<group>"; };
 		97BFF0F6192526F2003FAF37 /* RataplanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RataplanViewController.h; path = Bands/RataplanViewController.h; sourceTree = "<group>"; };
 		97BFF0F7192526F2003FAF37 /* RataplanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RataplanViewController.m; path = Bands/RataplanViewController.m; sourceTree = "<group>"; };
+		97BFF10019268F8F003FAF37 /* CustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegue.h; sourceTree = "<group>"; };
+		97BFF10119268F8F003FAF37 /* CustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegue.m; sourceTree = "<group>"; };
+		97BFF10219268F8F003FAF37 /* CustomUnwindSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomUnwindSegue.h; sourceTree = "<group>"; };
+		97BFF10319268F8F003FAF37 /* CustomUnwindSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomUnwindSegue.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +160,7 @@
 				970C7BC2191FDD8000441833 /* AppDelegate.h */,
 				970C7BC3191FDD8000441833 /* AppDelegate.m */,
 				970C7BC5191FDD8000441833 /* Main.storyboard */,
+				97BFF0FF19268F8F003FAF37 /* CustomSegue */,
 				970C7BF2191FE21C00441833 /* Home */,
 				970C7BEA191FE00300441833 /* Menu */,
 				970C7BEB191FE00C00441833 /* Venues */,
@@ -281,6 +288,17 @@
 			name = "Foto's";
 			sourceTree = "<group>";
 		};
+		97BFF0FF19268F8F003FAF37 /* CustomSegue */ = {
+			isa = PBXGroup;
+			children = (
+				97BFF10019268F8F003FAF37 /* CustomSegue.h */,
+				97BFF10119268F8F003FAF37 /* CustomSegue.m */,
+				97BFF10219268F8F003FAF37 /* CustomUnwindSegue.h */,
+				97BFF10319268F8F003FAF37 /* CustomUnwindSegue.m */,
+			);
+			path = CustomSegue;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -383,11 +401,13 @@
 				970C7BC0191FDD8000441833 /* main.m in Sources */,
 				97BFF0F219252677003FAF37 /* ArenbergViewController.m in Sources */,
 				970C7BFE191FE28000441833 /* VenuesViewController.m in Sources */,
+				97BFF10519268F8F003FAF37 /* CustomUnwindSegue.m in Sources */,
 				97BFF0F8192526F2003FAF37 /* RataplanViewController.m in Sources */,
 				970C7C01191FE29000441833 /* MenuViewController.m in Sources */,
 				970C7BF8191FE26100441833 /* BandViewController.m in Sources */,
 				970C7BF1191FE0BF00441833 /* SWRevealViewController.m in Sources */,
 				97BFF0EF19252667003FAF37 /* PetrolViewController.m in Sources */,
+				97BFF10419268F8F003FAF37 /* CustomSegue.m in Sources */,
 				970C7C0B191FEE7D00441833 /* FotoViewController.m in Sources */,
 				970C7C11191FFDD800441833 /* MenuItem.m in Sources */,
 				970C7C0E191FFB2F00441833 /* MenuModel.m in Sources */,

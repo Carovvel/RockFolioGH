@@ -22,7 +22,6 @@
 		970C7BDF191FDD8000441833 /* RockFolioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BDE191FDD8000441833 /* RockFolioTests.m */; };
 		970C7BF1191FE0BF00441833 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BF0191FE0BF00441833 /* SWRevealViewController.m */; };
 		970C7BF5191FE23B00441833 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BF4191FE23B00441833 /* HomeViewController.m */; };
-		970C7BF8191FE26100441833 /* BandViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BF7191FE26100441833 /* BandViewController.m */; };
 		970C7BFE191FE28000441833 /* VenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BFD191FE28000441833 /* VenuesViewController.m */; };
 		970C7C01191FE29000441833 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C00191FE29000441833 /* MenuViewController.m */; };
 		970C7C04191FE2AA00441833 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C03191FE2AA00441833 /* AboutViewController.m */; };
@@ -34,6 +33,17 @@
 		97BFF0F219252677003FAF37 /* ArenbergViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0F119252677003FAF37 /* ArenbergViewController.m */; };
 		97BFF0F519252686003FAF37 /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0F419252685003FAF37 /* ABViewController.m */; };
 		97BFF0F8192526F2003FAF37 /* RataplanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0F7192526F2003FAF37 /* RataplanViewController.m */; };
+		97BFF108192694DF003FAF37 /* Okon&TheMovementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF107192694DF003FAF37 /* Okon&TheMovementViewController.m */; };
+		97BFF10B19269501003FAF37 /* DeBerenGierenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF10A19269501003FAF37 /* DeBerenGierenViewController.m */; };
+		97BFF10E19269518003FAF37 /* ReutRegevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF10D19269518003FAF37 /* ReutRegevViewController.m */; };
+		97BFF1111926952A003FAF37 /* ReenaRiotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF1101926952A003FAF37 /* ReenaRiotViewController.m */; };
+		97BFF1141926953F003FAF37 /* OthinSpakeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF1131926953F003FAF37 /* OthinSpakeViewController.m */; };
+		97BFF11719269552003FAF37 /* Victor&TheBloodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF11619269552003FAF37 /* Victor&TheBloodViewController.m */; };
+		97BFF11A1926956B003FAF37 /* TheSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF1191926956B003FAF37 /* TheSoundsViewController.m */; };
+		97BFF11D19269585003FAF37 /* DeJeugdVanTegenwoordigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF11C19269585003FAF37 /* DeJeugdVanTegenwoordigViewController.m */; };
+		97BFF120192695A1003FAF37 /* IntergalacticLoversViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF11F192695A1003FAF37 /* IntergalacticLoversViewController.m */; };
+		97BFF123192695B4003FAF37 /* TheSubsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF122192695B4003FAF37 /* TheSubsViewController.m */; };
+		97BFF126192695C1003FAF37 /* MarbleSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF125192695C1003FAF37 /* MarbleSoundsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +78,6 @@
 		970C7BF0191FE0BF00441833 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = RevealViewController/SWRevealViewController.m; sourceTree = "<group>"; };
 		970C7BF3191FE23B00441833 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HomeViewController.h; path = Home/HomeViewController.h; sourceTree = "<group>"; };
 		970C7BF4191FE23B00441833 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HomeViewController.m; path = Home/HomeViewController.m; sourceTree = "<group>"; };
-		970C7BF6191FE26100441833 /* BandViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BandViewController.h; path = Band/BandViewController.h; sourceTree = "<group>"; };
-		970C7BF7191FE26100441833 /* BandViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BandViewController.m; path = Band/BandViewController.m; sourceTree = "<group>"; };
 		970C7BFC191FE28000441833 /* VenuesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VenuesViewController.h; path = Venues/VenuesViewController.h; sourceTree = "<group>"; };
 		970C7BFD191FE28000441833 /* VenuesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VenuesViewController.m; path = Venues/VenuesViewController.m; sourceTree = "<group>"; };
 		970C7BFF191FE29000441833 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuViewController.h; path = Menu/MenuViewController.h; sourceTree = "<group>"; };
@@ -92,6 +100,28 @@
 		97BFF0F419252685003FAF37 /* ABViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABViewController.m; path = Bands/ABViewController.m; sourceTree = "<group>"; };
 		97BFF0F6192526F2003FAF37 /* RataplanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RataplanViewController.h; path = Bands/RataplanViewController.h; sourceTree = "<group>"; };
 		97BFF0F7192526F2003FAF37 /* RataplanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RataplanViewController.m; path = Bands/RataplanViewController.m; sourceTree = "<group>"; };
+		97BFF106192694DF003FAF37 /* Okon&TheMovementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Okon&TheMovementViewController.h"; path = "Band/Okon&TheMovementViewController.h"; sourceTree = "<group>"; };
+		97BFF107192694DF003FAF37 /* Okon&TheMovementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Okon&TheMovementViewController.m"; path = "Band/Okon&TheMovementViewController.m"; sourceTree = "<group>"; };
+		97BFF10919269501003FAF37 /* DeBerenGierenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeBerenGierenViewController.h; path = Band/DeBerenGierenViewController.h; sourceTree = "<group>"; };
+		97BFF10A19269501003FAF37 /* DeBerenGierenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeBerenGierenViewController.m; path = Band/DeBerenGierenViewController.m; sourceTree = "<group>"; };
+		97BFF10C19269518003FAF37 /* ReutRegevViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReutRegevViewController.h; path = Band/ReutRegevViewController.h; sourceTree = "<group>"; };
+		97BFF10D19269518003FAF37 /* ReutRegevViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReutRegevViewController.m; path = Band/ReutRegevViewController.m; sourceTree = "<group>"; };
+		97BFF10F1926952A003FAF37 /* ReenaRiotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReenaRiotViewController.h; path = Band/ReenaRiotViewController.h; sourceTree = "<group>"; };
+		97BFF1101926952A003FAF37 /* ReenaRiotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReenaRiotViewController.m; path = Band/ReenaRiotViewController.m; sourceTree = "<group>"; };
+		97BFF1121926953F003FAF37 /* OthinSpakeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OthinSpakeViewController.h; path = Band/OthinSpakeViewController.h; sourceTree = "<group>"; };
+		97BFF1131926953F003FAF37 /* OthinSpakeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OthinSpakeViewController.m; path = Band/OthinSpakeViewController.m; sourceTree = "<group>"; };
+		97BFF11519269552003FAF37 /* Victor&TheBloodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Victor&TheBloodViewController.h"; path = "Band/Victor&TheBloodViewController.h"; sourceTree = "<group>"; };
+		97BFF11619269552003FAF37 /* Victor&TheBloodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Victor&TheBloodViewController.m"; path = "Band/Victor&TheBloodViewController.m"; sourceTree = "<group>"; };
+		97BFF1181926956B003FAF37 /* TheSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheSoundsViewController.h; path = Band/TheSoundsViewController.h; sourceTree = "<group>"; };
+		97BFF1191926956B003FAF37 /* TheSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheSoundsViewController.m; path = Band/TheSoundsViewController.m; sourceTree = "<group>"; };
+		97BFF11B19269585003FAF37 /* DeJeugdVanTegenwoordigViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeJeugdVanTegenwoordigViewController.h; path = Band/DeJeugdVanTegenwoordigViewController.h; sourceTree = "<group>"; };
+		97BFF11C19269585003FAF37 /* DeJeugdVanTegenwoordigViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeJeugdVanTegenwoordigViewController.m; path = Band/DeJeugdVanTegenwoordigViewController.m; sourceTree = "<group>"; };
+		97BFF11E192695A1003FAF37 /* IntergalacticLoversViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntergalacticLoversViewController.h; path = Band/IntergalacticLoversViewController.h; sourceTree = "<group>"; };
+		97BFF11F192695A1003FAF37 /* IntergalacticLoversViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntergalacticLoversViewController.m; path = Band/IntergalacticLoversViewController.m; sourceTree = "<group>"; };
+		97BFF121192695B4003FAF37 /* TheSubsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TheSubsViewController.h; path = Band/TheSubsViewController.h; sourceTree = "<group>"; };
+		97BFF122192695B4003FAF37 /* TheSubsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheSubsViewController.m; path = Band/TheSubsViewController.m; sourceTree = "<group>"; };
+		97BFF124192695C1003FAF37 /* MarbleSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarbleSoundsViewController.h; path = Band/MarbleSoundsViewController.h; sourceTree = "<group>"; };
+		97BFF125192695C1003FAF37 /* MarbleSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarbleSoundsViewController.m; path = Band/MarbleSoundsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -257,8 +287,28 @@
 		970C7BEE191FE04800441833 /* Band */ = {
 			isa = PBXGroup;
 			children = (
-				970C7BF6191FE26100441833 /* BandViewController.h */,
-				970C7BF7191FE26100441833 /* BandViewController.m */,
+				97BFF106192694DF003FAF37 /* Okon&TheMovementViewController.h */,
+				97BFF107192694DF003FAF37 /* Okon&TheMovementViewController.m */,
+				97BFF10919269501003FAF37 /* DeBerenGierenViewController.h */,
+				97BFF10A19269501003FAF37 /* DeBerenGierenViewController.m */,
+				97BFF10C19269518003FAF37 /* ReutRegevViewController.h */,
+				97BFF10D19269518003FAF37 /* ReutRegevViewController.m */,
+				97BFF10F1926952A003FAF37 /* ReenaRiotViewController.h */,
+				97BFF1101926952A003FAF37 /* ReenaRiotViewController.m */,
+				97BFF1121926953F003FAF37 /* OthinSpakeViewController.h */,
+				97BFF1131926953F003FAF37 /* OthinSpakeViewController.m */,
+				97BFF11519269552003FAF37 /* Victor&TheBloodViewController.h */,
+				97BFF11619269552003FAF37 /* Victor&TheBloodViewController.m */,
+				97BFF1181926956B003FAF37 /* TheSoundsViewController.h */,
+				97BFF1191926956B003FAF37 /* TheSoundsViewController.m */,
+				97BFF11B19269585003FAF37 /* DeJeugdVanTegenwoordigViewController.h */,
+				97BFF11C19269585003FAF37 /* DeJeugdVanTegenwoordigViewController.m */,
+				97BFF11E192695A1003FAF37 /* IntergalacticLoversViewController.h */,
+				97BFF11F192695A1003FAF37 /* IntergalacticLoversViewController.m */,
+				97BFF121192695B4003FAF37 /* TheSubsViewController.h */,
+				97BFF122192695B4003FAF37 /* TheSubsViewController.m */,
+				97BFF124192695C1003FAF37 /* MarbleSoundsViewController.h */,
+				97BFF125192695C1003FAF37 /* MarbleSoundsViewController.m */,
 			);
 			name = Band;
 			sourceTree = "<group>";
@@ -379,20 +429,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				970C7C04191FE2AA00441833 /* AboutViewController.m in Sources */,
+				97BFF1111926952A003FAF37 /* ReenaRiotViewController.m in Sources */,
 				970C7BC4191FDD8000441833 /* AppDelegate.m in Sources */,
 				970C7BC0191FDD8000441833 /* main.m in Sources */,
 				97BFF0F219252677003FAF37 /* ArenbergViewController.m in Sources */,
 				970C7BFE191FE28000441833 /* VenuesViewController.m in Sources */,
+				97BFF1141926953F003FAF37 /* OthinSpakeViewController.m in Sources */,
 				97BFF0F8192526F2003FAF37 /* RataplanViewController.m in Sources */,
+				97BFF108192694DF003FAF37 /* Okon&TheMovementViewController.m in Sources */,
 				970C7C01191FE29000441833 /* MenuViewController.m in Sources */,
-				970C7BF8191FE26100441833 /* BandViewController.m in Sources */,
+				97BFF11A1926956B003FAF37 /* TheSoundsViewController.m in Sources */,
+				97BFF126192695C1003FAF37 /* MarbleSoundsViewController.m in Sources */,
+				97BFF10E19269518003FAF37 /* ReutRegevViewController.m in Sources */,
 				970C7BF1191FE0BF00441833 /* SWRevealViewController.m in Sources */,
+				97BFF11719269552003FAF37 /* Victor&TheBloodViewController.m in Sources */,
 				97BFF0EF19252667003FAF37 /* PetrolViewController.m in Sources */,
+				97BFF10B19269501003FAF37 /* DeBerenGierenViewController.m in Sources */,
 				970C7C0B191FEE7D00441833 /* FotoViewController.m in Sources */,
 				970C7C11191FFDD800441833 /* MenuItem.m in Sources */,
+				97BFF120192695A1003FAF37 /* IntergalacticLoversViewController.m in Sources */,
 				970C7C0E191FFB2F00441833 /* MenuModel.m in Sources */,
 				97BFF0EC1925263D003FAF37 /* TrixViewController.m in Sources */,
 				970C7BF5191FE23B00441833 /* HomeViewController.m in Sources */,
+				97BFF123192695B4003FAF37 /* TheSubsViewController.m in Sources */,
+				97BFF11D19269585003FAF37 /* DeJeugdVanTegenwoordigViewController.m in Sources */,
 				97BFF0F519252686003FAF37 /* ABViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

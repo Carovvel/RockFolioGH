@@ -187,22 +187,46 @@
                                 <rect key="frame" x="260" y="23" width="43" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okon&amp;TheMovementbutton" translatesAutoresizingMaskIntoConstraints="NO" id="mfw-IJ-Bxz">
-                                <rect key="frame" x="40" y="107" width="240" height="86"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OPF-IG-vhQ">
+                                <rect key="frame" x="16" y="107" width="289" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DeBerenGierenbutton" translatesAutoresizingMaskIntoConstraints="NO" id="Oow-ug-bI5">
-                                <rect key="frame" x="40" y="201" width="240" height="86"/>
+                                <state key="normal" image="Okon&amp;TheMovementbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="cq3-3f-nDG" kind="push" id="5bR-ac-8u3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kAC-yh-edy">
+                                <rect key="frame" x="16" y="200" width="289" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReutRegevbutton" translatesAutoresizingMaskIntoConstraints="NO" id="hoN-zY-FP6">
-                                <rect key="frame" x="40" y="295" width="240" height="86"/>
+                                <state key="normal" image="DeBerenGierenbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FR6-zI-PZi" kind="push" id="zf3-AD-x40"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57P-pH-MAt">
+                                <rect key="frame" x="16" y="295" width="289" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReenaRiotbutton" translatesAutoresizingMaskIntoConstraints="NO" id="FJz-lT-onT">
-                                <rect key="frame" x="40" y="389" width="240" height="86"/>
+                                <state key="normal" image="ReutRegevbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="jVu-bV-8HB" kind="push" id="Ica-AU-mKD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cRN-fD-jJH">
+                                <rect key="frame" x="16" y="389" width="289" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" image="ReenaRiotbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="dzd-TW-dMD" kind="push" id="REq-DV-yJ5"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -310,10 +334,10 @@
             </objects>
             <point key="canvasLocation" x="2633" y="700"/>
         </scene>
-        <!--Band View Controller-->
+        <!--Okon The Movement View Controller-->
         <scene sceneID="TeS-O1-wrl">
             <objects>
-                <viewController id="cq3-3f-nDG" customClass="BandViewController" sceneMemberID="viewController">
+                <viewController id="cq3-3f-nDG" customClass="Okon_TheMovementViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="DYX-LO-eSg"/>
                         <viewControllerLayoutGuide type="bottom" id="J6O-Bo-HcV"/>
@@ -321,12 +345,35 @@
                     <view key="view" contentMode="scaleToFill" id="bEy-p3-dKf">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eCG-ZY-ioB">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="ZDl-JL-YzU">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OKON&amp;THE MOVEMENT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjo-GO-9Rj">
+                                <rect key="frame" x="49" y="39" width="215" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="LrK-7X-T0A">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="sT8-dR-a23"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQn-ee-HPQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3021" y="-655"/>
+            <point key="canvasLocation" x="3305" y="-2485"/>
         </scene>
         <!--Foto View Controller-->
         <scene sceneID="kpz-FR-HJH">
@@ -344,7 +391,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ITF-lv-BZw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3435" y="-655"/>
+            <point key="canvasLocation" x="3829" y="-1525"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="lZN-io-7DP">
@@ -606,6 +653,129 @@
             </objects>
             <point key="canvasLocation" x="812" y="-28"/>
         </scene>
+        <!--Reut Regev View Controller-->
+        <scene sceneID="VXE-xO-WM9">
+            <objects>
+                <viewController id="jVu-bV-8HB" customClass="ReutRegevViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="upd-wk-dRc"/>
+                        <viewControllerLayoutGuide type="bottom" id="WRP-bz-1eE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AjK-g1-0dm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jAA-JL-hIb">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="6FN-rE-z4j">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="REUT REGEV" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wYz-in-mRx">
+                                <rect key="frame" x="98" y="39" width="125" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="Coh-lH-b32">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3Ge-nj-gop"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YdB-f6-pgQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3305" y="-1095"/>
+        </scene>
+        <!--De Beren Gieren View Controller-->
+        <scene sceneID="c7m-lQ-8DS">
+            <objects>
+                <viewController id="FR6-zI-PZi" customClass="DeBerenGierenViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5Tp-GI-JW1"/>
+                        <viewControllerLayoutGuide type="bottom" id="Br4-kl-npY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ohi-1f-ORW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uGg-9n-m86">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="4EJ-Mx-HCo">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DE BEREN GIEREN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="do4-iR-kOn">
+                                <rect key="frame" x="75" y="39" width="167" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="TXU-05-gpv">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9SL-h9-Ooz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ri-d2-uAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3305" y="-1781"/>
+        </scene>
+        <!--Reena Riot View Controller-->
+        <scene sceneID="JpU-Ho-3WI">
+            <objects>
+                <viewController id="dzd-TW-dMD" customClass="ReenaRiotViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xvT-Iu-QQ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="KGU-ZY-SJL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="j1W-XM-8gj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wMK-Yz-rJn">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="5Jf-aX-346">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="REENA RIOT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yTd-eQ-542">
+                                <rect key="frame" x="98" y="39" width="125" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="0DD-Bq-uuv">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gKm-WL-OjZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JGc-n7-ksb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3305" y="-399"/>
+        </scene>
     </scenes>
     <resources>
         <image name="DeBerenGierenbutton" width="234" height="88"/>
@@ -638,10 +808,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="YzS-cr-H8V"/>
         <segue reference="6Sy-cp-HO1"/>
-        <segue reference="gsk-mb-ijh"/>
-        <segue reference="FuQ-Ws-tvR"/>
+        <segue reference="8qu-wi-HQe"/>
         <segue reference="GqH-Eh-2f4"/>
+        <segue reference="FuQ-Ws-tvR"/>
+        <segue reference="gsk-mb-ijh"/>
         <segue reference="9Ww-Rh-zXs"/>
-        <segue reference="MHW-l0-LFY"/>
     </inferredMetricsTieBreakers>
 </document>

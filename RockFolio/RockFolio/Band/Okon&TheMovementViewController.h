@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface Okon_TheMovementViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *okonFoto1;
+@property (strong, nonatomic) IBOutlet UIImageView *okonFoto2;
 
 @end

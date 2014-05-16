@@ -402,6 +402,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="sT8-dR-a23"/>
+                    <connections>
+                        <outlet property="okonFoto1" destination="wx2-VK-tcI" id="6TN-NH-MCZ"/>
+                        <outlet property="okonFoto2" destination="VfL-iO-Juw" id="y0t-So-l14"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQn-ee-HPQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -423,7 +427,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ITF-lv-BZw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3829" y="-1525"/>
+            <point key="canvasLocation" x="3777" y="-2211"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="lZN-io-7DP">
@@ -846,12 +850,12 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="hmt-3A-u8T"/>
         <segue reference="YzS-cr-H8V"/>
+        <segue reference="8t9-6e-1Zg"/>
         <segue reference="6Sy-cp-HO1"/>
         <segue reference="8qu-wi-HQe"/>
-        <segue reference="GqH-Eh-2f4"/>
-        <segue reference="FuQ-Ws-tvR"/>
-        <segue reference="gsk-mb-ijh"/>
-        <segue reference="9Ww-Rh-zXs"/>
+        <segue reference="LXM-Nf-CBC"/>
+        <segue reference="vgK-Il-frc"/>
     </inferredMetricsTieBreakers>
 </document>

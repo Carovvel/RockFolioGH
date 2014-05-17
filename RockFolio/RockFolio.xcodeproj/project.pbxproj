@@ -44,7 +44,6 @@
 		97BFF120192695A1003FAF37 /* IntergalacticLoversViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF11F192695A1003FAF37 /* IntergalacticLoversViewController.m */; };
 		97BFF123192695B4003FAF37 /* TheSubsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF122192695B4003FAF37 /* TheSubsViewController.m */; };
 		97BFF126192695C1003FAF37 /* MarbleSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF125192695C1003FAF37 /* MarbleSoundsViewController.m */; };
-		97F6549E1926B35A006F1883 /* EXPhotoViewer.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F6549D1926B35A006F1883 /* EXPhotoViewer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,8 +122,6 @@
 		97BFF122192695B4003FAF37 /* TheSubsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheSubsViewController.m; path = Band/TheSubsViewController.m; sourceTree = "<group>"; };
 		97BFF124192695C1003FAF37 /* MarbleSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarbleSoundsViewController.h; path = Band/MarbleSoundsViewController.h; sourceTree = "<group>"; };
 		97BFF125192695C1003FAF37 /* MarbleSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarbleSoundsViewController.m; path = Band/MarbleSoundsViewController.m; sourceTree = "<group>"; };
-		97F6549C1926B35A006F1883 /* EXPhotoViewer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXPhotoViewer.h; sourceTree = "<group>"; };
-		97F6549D1926B35A006F1883 /* EXPhotoViewer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXPhotoViewer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,8 +181,6 @@
 		970C7BB9191FDD8000441833 /* RockFolio */ = {
 			isa = PBXGroup;
 			children = (
-				97F6549C1926B35A006F1883 /* EXPhotoViewer.h */,
-				97F6549D1926B35A006F1883 /* EXPhotoViewer.m */,
 				970C7BC2191FDD8000441833 /* AppDelegate.h */,
 				970C7BC3191FDD8000441833 /* AppDelegate.m */,
 				970C7BC5191FDD8000441833 /* Main.storyboard */,
@@ -383,6 +378,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Caroline Van Velthoven";
 				TargetAttributes = {
+					970C7BAF191FDD7F00441833 = {
+						DevelopmentTeam = 895WUD949A;
+					};
 					970C7BD0191FDD8000441833 = {
 						TestTargetID = 970C7BAF191FDD7F00441833;
 					};
@@ -442,7 +440,6 @@
 				97BFF1141926953F003FAF37 /* OthinSpakeViewController.m in Sources */,
 				97BFF0F8192526F2003FAF37 /* RataplanViewController.m in Sources */,
 				97BFF108192694DF003FAF37 /* Okon&TheMovementViewController.m in Sources */,
-				97F6549E1926B35A006F1883 /* EXPhotoViewer.m in Sources */,
 				970C7C01191FE29000441833 /* MenuViewController.m in Sources */,
 				97BFF11A1926956B003FAF37 /* TheSoundsViewController.m in Sources */,
 				97BFF126192695C1003FAF37 /* MarbleSoundsViewController.m in Sources */,
@@ -584,6 +581,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RockFolio/RockFolio-Prefix.pch";
 				INFOPLIST_FILE = "RockFolio/RockFolio-Info.plist";
@@ -597,6 +595,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RockFolio/RockFolio-Prefix.pch";
 				INFOPLIST_FILE = "RockFolio/RockFolio-Info.plist";

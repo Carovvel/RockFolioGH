@@ -8,7 +8,6 @@
 
 #import "Okon&TheMovementViewController.h"
 #import "SWRevealViewController.h"
-#import "EXPhotoViewer.h"
 
 @interface Okon_TheMovementViewController ()
 
@@ -31,9 +30,7 @@
     // Do any additional setup after loading the view.
     
     [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
-    
-    [EXPhotoViewer showImageFrom:_okonFoto1];
-    [EXPhotoViewer showImageFrom:_okonFoto2];
+ 
 }
 
 - (void)didReceiveMemoryWarning

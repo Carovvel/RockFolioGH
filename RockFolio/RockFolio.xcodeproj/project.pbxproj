@@ -44,6 +44,8 @@
 		97BFF120192695A1003FAF37 /* IntergalacticLoversViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF11F192695A1003FAF37 /* IntergalacticLoversViewController.m */; };
 		97BFF123192695B4003FAF37 /* TheSubsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF122192695B4003FAF37 /* TheSubsViewController.m */; };
 		97BFF126192695C1003FAF37 /* MarbleSoundsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF125192695C1003FAF37 /* MarbleSoundsViewController.m */; };
+		97F654A11927B451006F1883 /* CustomSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F654A01927B451006F1883 /* CustomSegue.m */; };
+		97F654A31927B49C006F1883 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97F654A21927B49C006F1883 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +124,9 @@
 		97BFF122192695B4003FAF37 /* TheSubsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TheSubsViewController.m; path = Band/TheSubsViewController.m; sourceTree = "<group>"; };
 		97BFF124192695C1003FAF37 /* MarbleSoundsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MarbleSoundsViewController.h; path = Band/MarbleSoundsViewController.h; sourceTree = "<group>"; };
 		97BFF125192695C1003FAF37 /* MarbleSoundsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MarbleSoundsViewController.m; path = Band/MarbleSoundsViewController.m; sourceTree = "<group>"; };
+		97F6549F1927B451006F1883 /* CustomSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSegue.h; sourceTree = "<group>"; };
+		97F654A01927B451006F1883 /* CustomSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSegue.m; sourceTree = "<group>"; };
+		97F654A21927B49C006F1883 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +134,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97F654A31927B49C006F1883 /* QuartzCore.framework in Frameworks */,
 				970C7BB6191FDD8000441833 /* CoreGraphics.framework in Frameworks */,
 				970C7BB8191FDD8000441833 /* UIKit.framework in Frameworks */,
 				970C7BB4191FDD8000441833 /* Foundation.framework in Frameworks */,
@@ -170,6 +176,7 @@
 		970C7BB2191FDD8000441833 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				97F654A21927B49C006F1883 /* QuartzCore.framework */,
 				970C7BB3191FDD8000441833 /* Foundation.framework */,
 				970C7BB5191FDD8000441833 /* CoreGraphics.framework */,
 				970C7BB7191FDD8000441833 /* UIKit.framework */,
@@ -183,6 +190,8 @@
 			children = (
 				970C7BC2191FDD8000441833 /* AppDelegate.h */,
 				970C7BC3191FDD8000441833 /* AppDelegate.m */,
+				97F6549F1927B451006F1883 /* CustomSegue.h */,
+				97F654A01927B451006F1883 /* CustomSegue.m */,
 				970C7BC5191FDD8000441833 /* Main.storyboard */,
 				970C7BF2191FE21C00441833 /* Home */,
 				970C7BEA191FE00300441833 /* Menu */,
@@ -439,6 +448,7 @@
 				970C7BFE191FE28000441833 /* VenuesViewController.m in Sources */,
 				97BFF1141926953F003FAF37 /* OthinSpakeViewController.m in Sources */,
 				97BFF0F8192526F2003FAF37 /* RataplanViewController.m in Sources */,
+				97F654A11927B451006F1883 /* CustomSegue.m in Sources */,
 				97BFF108192694DF003FAF37 /* Okon&TheMovementViewController.m in Sources */,
 				970C7C01191FE29000441833 /* MenuViewController.m in Sources */,
 				97BFF11A1926956B003FAF37 /* TheSoundsViewController.m in Sources */,

@@ -9,6 +9,14 @@
 #import "MenuViewController.h"
 #import "SWRevealViewController.h"
 #import "MenuModel.h"
+#import "HomeViewController.h"
+#import "VenuesViewController.h"
+#import "AboutViewController.h"
+#import "RataplanViewController.h"
+#import "TrixViewController.h"
+#import "PetrolViewController.h"
+#import "ArenbergViewController.h"
+#import "ABViewController.h"
 
 @interface MenuViewController ()
 
@@ -82,7 +90,81 @@
     //check which item was tapped
     MenuItem *item = self.menuItems[indexPath.row];
     
-    switch (item.screenType) {
+    if (item.screenType == ScreentypeHome)
+    {
+        //go to Home
+        HomeViewController *homeView = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeViewController"];
+        [(UINavigationController *)self.revealViewController.frontViewController pushViewController:homeView animated:YES];
+        
+        //slide the menu back
+        [self.revealViewController revealToggleAnimated:YES];
+    }
+    else if (item.screenType == ScreentypeVenues)
+    {
+        //go to Venues
+        VenuesViewController *venuesView = [self.storyboard instantiateViewControllerWithIdentifier:@"VenuesViewController"];
+        [(UINavigationController *)self.revealViewController.frontViewController pushViewController:venuesView animated:YES];
+        
+        //slide the menu back
+        [self.revealViewController revealToggleAnimated:YES];
+    }
+    else if (item.screenType == ScreentypeRataplan)
+    {
+        //go to Rataplan
+        RataplanViewController *rataplanView = [self.storyboard instantiateViewControllerWithIdentifier:@"RataplanViewController"];
+        [(UINavigationController *)self.revealViewController.frontViewController pushViewController:rataplanView animated:YES];
+        
+        //slide the menu back
+        [self.revealViewController revealToggleAnimated:YES];
+    }
+    else if (item.screenType == ScreentypeTrix)
+    {
+        //go to Trix
+        TrixViewController *trixView = [self.storyboard instantiateViewControllerWithIdentifier:@"TrixViewController"];
+        [(UINavigationController *)self.revealViewController.frontViewController pushViewController:trixView animated:YES];
+        
+        //slide the menu back
+        [self.revealViewController revealToggleAnimated:YES];
+    }
+    else if (item.screenType == ScreentypePetrol)
+    {
+        //go to Petrol
+        PetrolViewController *petrolView = [self.storyboard instantiateViewControllerWithIdentifier:@"PetrolViewController"];
+        [(UINavigationController *)self.revealViewController.frontViewController pushViewController:petrolView animated:YES];
+        
+        //slide the menu back
+        [self.revealViewController revealToggleAnimated:YES];
+    }
+    else if (item.screenType == ScreentypeArenberg)
+    {
+        //go to Arenberg
+        ArenbergViewController *arenbergView = [self.storyboard instantiateViewControllerWithIdentifier:@"ArenbergViewController"];
+        [(UINavigationController *)self.revealViewController.frontViewController pushViewController:arenbergView animated:YES];
+        
+        //slide the menu back
+        [self.revealViewController revealToggleAnimated:YES];
+    }
+    else if (item.screenType == ScreentypeAB)
+    {
+        //go to AB
+        ABViewController *abView = [self.storyboard instantiateViewControllerWithIdentifier:@"ABViewController"];
+        [(UINavigationController *)self.revealViewController.frontViewController pushViewController:abView animated:YES];
+        
+        //slide the menu back
+        [self.revealViewController revealToggleAnimated:YES];
+    }
+    else if (item.screenType == ScreentypeAbout)
+    {
+        //go to About
+        AboutViewController *aboutView = [self.storyboard instantiateViewControllerWithIdentifier:@"AboutViewController"];
+        [(UINavigationController *)self.revealViewController.frontViewController pushViewController:aboutView animated:YES];
+        
+        //slide the menu back
+        [self.revealViewController revealToggleAnimated:YES];
+    }
+    
+    
+    /*switch (item.screenType) {
         case ScreentypeHome:
             //go to home
             [self performSegueWithIdentifier:@"HomeSegue" sender:self];
@@ -125,7 +207,7 @@
             
         default:
             break;
-    }
+    } */
         
 }
 

@@ -362,7 +362,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="upg-yB-MgL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3159" y="700"/>
+            <point key="canvasLocation" x="2633" y="724"/>
         </scene>
         <!--Okon The Movement View Controller-->
         <scene sceneID="TeS-O1-wrl">
@@ -586,8 +586,8 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ejh-4g-fCt">
-                                <rect key="frame" x="40" y="102" width="240" height="128"/>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Aboutfoto" translatesAutoresizingMaskIntoConstraints="NO" id="Ejh-4g-fCt">
+                                <rect key="frame" x="40" y="102" width="240" height="160"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Vpm-ZX-FTn">
@@ -616,7 +616,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kzn-Lp-zig" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1671" y="1595"/>
+            <point key="canvasLocation" x="1663" y="767"/>
         </scene>
         <!--Arenberg View Controller-->
         <scene sceneID="FO2-IY-zY1">
@@ -671,7 +671,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uED-Tr-1ML" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3159" y="1368"/>
+            <point key="canvasLocation" x="2639" y="1416"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9f9-SU-YDq">
@@ -896,6 +896,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Aboutfoto" width="228" height="150"/>
         <image name="Backbutton" width="71" height="52"/>
         <image name="DeBerenGierenbutton" width="234" height="88"/>
         <image name="DeJeugdVanTegenwoordigbutton" width="234" height="88"/>
@@ -933,12 +934,12 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="FuQ-Ws-tvR"/>
-        <segue reference="wYH-1U-bQs"/>
-        <segue reference="hmt-3A-u8T"/>
-        <segue reference="vgK-Il-frc"/>
+        <segue reference="ysV-rT-yLS"/>
+        <segue reference="8t9-6e-1Zg"/>
         <segue reference="6Sy-cp-HO1"/>
+        <segue reference="hmt-3A-u8T"/>
         <segue reference="8qu-wi-HQe"/>
-        <segue reference="GqH-Eh-2f4"/>
+        <segue reference="vgK-Il-frc"/>
+        <segue reference="eqD-Ca-kfk"/>
     </inferredMetricsTieBreakers>
 </document>

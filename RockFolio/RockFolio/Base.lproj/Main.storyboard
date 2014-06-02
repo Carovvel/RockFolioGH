@@ -396,36 +396,36 @@
                                 <rect key="frame" x="260" y="23" width="43" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto1" translatesAutoresizingMaskIntoConstraints="NO" id="wx2-VK-tcI">
-                                <rect key="frame" x="47" y="98" width="91" height="89"/>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OkonPhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="wx2-VK-tcI">
+                                <rect key="frame" x="45" y="102" width="95" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto2" translatesAutoresizingMaskIntoConstraints="NO" id="VfL-iO-Juw">
-                                <rect key="frame" x="182" y="98" width="91" height="89"/>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OkonPhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="VfL-iO-Juw">
+                                <rect key="frame" x="180" y="102" width="95" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto3" translatesAutoresizingMaskIntoConstraints="NO" id="Fxs-eq-RKY">
-                                <rect key="frame" x="47" y="202" width="91" height="89"/>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OkonPhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="Fxs-eq-RKY">
+                                <rect key="frame" x="45" y="208" width="95" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto4" translatesAutoresizingMaskIntoConstraints="NO" id="BBd-bD-rth">
-                                <rect key="frame" x="182" y="202" width="91" height="89"/>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OkonPhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="BBd-bD-rth">
+                                <rect key="frame" x="180" y="208" width="95" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto5" translatesAutoresizingMaskIntoConstraints="NO" id="HPx-ZD-oNX">
-                                <rect key="frame" x="47" y="307" width="91" height="89"/>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OkonPhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="HPx-ZD-oNX">
+                                <rect key="frame" x="45" y="313" width="95" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto6" translatesAutoresizingMaskIntoConstraints="NO" id="CQC-Ig-8ob">
-                                <rect key="frame" x="182" y="307" width="91" height="89"/>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OkonPhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="CQC-Ig-8ob">
+                                <rect key="frame" x="180" y="313" width="95" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto7" translatesAutoresizingMaskIntoConstraints="NO" id="fGP-PA-RHp">
-                                <rect key="frame" x="47" y="409" width="91" height="89"/>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OkonPhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="fGP-PA-RHp">
+                                <rect key="frame" x="45" y="415" width="95" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Okonfoto8" translatesAutoresizingMaskIntoConstraints="NO" id="sG0-KA-lyE">
-                                <rect key="frame" x="182" y="409" width="91" height="89"/>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OkonPhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="sG0-KA-lyE">
+                                <rect key="frame" x="180" y="415" width="95" height="77"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPd-1E-Vqb">
@@ -443,31 +443,19 @@
                     </view>
                     <navigationItem key="navigationItem" id="sT8-dR-a23"/>
                     <connections>
-                        <outlet property="okonFoto1" destination="wx2-VK-tcI" id="6TN-NH-MCZ"/>
-                        <outlet property="okonFoto2" destination="VfL-iO-Juw" id="y0t-So-l14"/>
+                        <outlet property="okonPhoto1" destination="wx2-VK-tcI" id="pij-Pl-eeU"/>
+                        <outlet property="okonPhoto2" destination="VfL-iO-Juw" id="0h8-Ad-LJk"/>
+                        <outlet property="okonPhoto3" destination="Fxs-eq-RKY" id="AZf-Yb-p3n"/>
+                        <outlet property="okonPhoto4" destination="BBd-bD-rth" id="QHh-RZ-NHr"/>
+                        <outlet property="okonPhoto5" destination="HPx-ZD-oNX" id="Rvm-E4-NqD"/>
+                        <outlet property="okonPhoto6" destination="CQC-Ig-8ob" id="nwv-aj-6PY"/>
+                        <outlet property="okonPhoto7" destination="fGP-PA-RHp" id="hUE-xR-hGf"/>
+                        <outlet property="okonPhoto8" destination="sG0-KA-lyE" id="SiA-UJ-8ih"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQn-ee-HPQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3305" y="-2485"/>
-        </scene>
-        <!--Foto View Controller-->
-        <scene sceneID="kpz-FR-HJH">
-            <objects>
-                <viewController id="6NH-7V-fk6" customClass="FotoViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="GFv-Vb-tt7"/>
-                        <viewControllerLayoutGuide type="bottom" id="gnl-Av-H6Z"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="A0E-DG-0Jm">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ITF-lv-BZw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3777" y="-2211"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="lZN-io-7DP">
@@ -842,10 +830,52 @@
                                     <action selector="backButtonTapped:" destination="FR6-zI-PZi" eventType="touchUpInside" id="iR1-qS-I6O"/>
                                 </connections>
                             </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BerenPhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="Rxs-z7-DTO">
+                                <rect key="frame" x="45" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BerenPhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="45d-NP-uYe">
+                                <rect key="frame" x="180" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BerenPhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="zEI-BC-waY">
+                                <rect key="frame" x="45" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BerenPhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="ayd-HO-Oqx">
+                                <rect key="frame" x="180" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BerenPhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="6uM-m9-gKc">
+                                <rect key="frame" x="45" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BerenPhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="3Ag-ke-JY2">
+                                <rect key="frame" x="180" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BerenPhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="Ul9-aW-DRY">
+                                <rect key="frame" x="45" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BerenPhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="OWq-al-89m">
+                                <rect key="frame" x="180" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="9SL-h9-Ooz"/>
+                    <connections>
+                        <outlet property="berenPhoto1" destination="Rxs-z7-DTO" id="ZhD-jx-9Sp"/>
+                        <outlet property="berenPhoto2" destination="45d-NP-uYe" id="G1V-zG-Ayy"/>
+                        <outlet property="berenPhoto3" destination="zEI-BC-waY" id="hF2-qd-Jk9"/>
+                        <outlet property="berenPhoto4" destination="ayd-HO-Oqx" id="Ebx-tl-LJ5"/>
+                        <outlet property="berenPhoto5" destination="6uM-m9-gKc" id="dSp-Lz-x98"/>
+                        <outlet property="berenPhoto6" destination="3Ag-ke-JY2" id="dQf-6v-agb"/>
+                        <outlet property="berenPhoto7" destination="Ul9-aW-DRY" id="Wju-RL-pdp"/>
+                        <outlet property="berenPhoto8" destination="OWq-al-89m" id="44X-rd-DaT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3ri-d2-uAD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -902,10 +932,69 @@
             </objects>
             <point key="canvasLocation" x="3305" y="-399"/>
         </scene>
+        <!--Othin Spake View Controller-->
+        <scene sceneID="WOa-AX-Abs">
+            <objects>
+                <viewController id="ucP-TN-9h1" customClass="OthinSpakeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H0W-aX-CG5"/>
+                        <viewControllerLayoutGuide type="bottom" id="IOH-5G-bRk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e9h-gG-2Va">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qOF-Ys-Evg">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="72H-iv-3fv">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OTHIN SPAKE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kgx-Lx-LzZ">
+                                <rect key="frame" x="98" y="39" width="125" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="iCZ-sg-RjS">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ny-uv-vEM">
+                                <rect key="frame" x="16" y="502" width="71" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Backbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="ucP-TN-9h1" eventType="touchUpInside" id="S88-5v-1hA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XZo-eH-NI2"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T4I-t2-7vK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3305" y="321"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Aboutfoto" width="228" height="150"/>
         <image name="Backbutton" width="71" height="52"/>
+        <image name="BerenPhoto1Large" width="320" height="568"/>
+        <image name="BerenPhoto2Large" width="320" height="568"/>
+        <image name="BerenPhoto3Large" width="320" height="568"/>
+        <image name="BerenPhoto4Large" width="320" height="568"/>
+        <image name="BerenPhoto5Large" width="320" height="568"/>
+        <image name="BerenPhoto6Large" width="320" height="568"/>
+        <image name="BerenPhoto7Large" width="320" height="568"/>
+        <image name="BerenPhoto8Large" width="320" height="568"/>
         <image name="DeBerenGierenbutton" width="234" height="88"/>
         <image name="DeJeugdVanTegenwoordigbutton" width="234" height="88"/>
         <image name="HomeRockfoliobutton" width="185" height="40"/>
@@ -914,14 +1003,14 @@
         <image name="MarbleSoundsbutton" width="234" height="88"/>
         <image name="Navigationbutton" width="36" height="34"/>
         <image name="Okon&amp;TheMovementbutton" width="234" height="88"/>
-        <image name="Okonfoto1" width="120" height="88"/>
-        <image name="Okonfoto2" width="120" height="88"/>
-        <image name="Okonfoto3" width="120" height="88"/>
-        <image name="Okonfoto4" width="120" height="88"/>
-        <image name="Okonfoto5" width="120" height="88"/>
-        <image name="Okonfoto6" width="120" height="88"/>
-        <image name="Okonfoto7" width="120" height="88"/>
-        <image name="Okonfoto8" width="120" height="88"/>
+        <image name="OkonPhoto1Large" width="320" height="568"/>
+        <image name="OkonPhoto2Large" width="320" height="568"/>
+        <image name="OkonPhoto3Large" width="320" height="568"/>
+        <image name="OkonPhoto4Large" width="320" height="568"/>
+        <image name="OkonPhoto5Large" width="320" height="568"/>
+        <image name="OkonPhoto6Large" width="320" height="568"/>
+        <image name="OkonPhoto7Large" width="320" height="568"/>
+        <image name="OkonPhoto8Large" width="320" height="568"/>
         <image name="OthinSpakebutton" width="234" height="88"/>
         <image name="ReenaRiotbutton" width="234" height="88"/>
         <image name="ReutRegevbutton" width="234" height="88"/>
@@ -944,10 +1033,10 @@
     <inferredMetricsTieBreakers>
         <segue reference="OhC-XD-CbX"/>
         <segue reference="ojk-nY-glN"/>
+        <segue reference="LXM-Nf-CBC"/>
         <segue reference="FuQ-Ws-tvR"/>
         <segue reference="9Ww-Rh-zXs"/>
         <segue reference="gsk-mb-ijh"/>
         <segue reference="MHW-l0-LFY"/>
-        <segue reference="GqH-Eh-2f4"/>
     </inferredMetricsTieBreakers>
 </document>

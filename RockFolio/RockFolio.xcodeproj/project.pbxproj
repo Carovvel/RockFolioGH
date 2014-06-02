@@ -25,7 +25,6 @@
 		970C7BFE191FE28000441833 /* VenuesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7BFD191FE28000441833 /* VenuesViewController.m */; };
 		970C7C01191FE29000441833 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C00191FE29000441833 /* MenuViewController.m */; };
 		970C7C04191FE2AA00441833 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C03191FE2AA00441833 /* AboutViewController.m */; };
-		970C7C0B191FEE7D00441833 /* FotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C0A191FEE7D00441833 /* FotoViewController.m */; };
 		970C7C0E191FFB2F00441833 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C0D191FFB2F00441833 /* MenuModel.m */; };
 		970C7C11191FFDD800441833 /* MenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 970C7C10191FFDD800441833 /* MenuItem.m */; };
 		97BFF0EC1925263D003FAF37 /* TrixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97BFF0EB1925263D003FAF37 /* TrixViewController.m */; };
@@ -85,8 +84,6 @@
 		970C7C00191FE29000441833 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuViewController.m; path = Menu/MenuViewController.m; sourceTree = "<group>"; };
 		970C7C02191FE2AA00441833 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AboutViewController.h; path = About/AboutViewController.h; sourceTree = "<group>"; };
 		970C7C03191FE2AA00441833 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AboutViewController.m; path = About/AboutViewController.m; sourceTree = "<group>"; };
-		970C7C09191FEE7D00441833 /* FotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FotoViewController.h; path = "Foto's/FotoViewController.h"; sourceTree = "<group>"; };
-		970C7C0A191FEE7D00441833 /* FotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FotoViewController.m; path = "Foto's/FotoViewController.m"; sourceTree = "<group>"; };
 		970C7C0C191FFB2F00441833 /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuModel.h; path = Menu/MenuModel.h; sourceTree = "<group>"; };
 		970C7C0D191FFB2F00441833 /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuModel.m; path = Menu/MenuModel.m; sourceTree = "<group>"; };
 		970C7C0F191FFDD800441833 /* MenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuItem.h; path = Menu/MenuItem.h; sourceTree = "<group>"; };
@@ -193,7 +190,6 @@
 				970C7BEB191FE00C00441833 /* Venues */,
 				970C7BEC191FE01D00441833 /* Bands */,
 				970C7BEE191FE04800441833 /* Band */,
-				970C7C05191FE5C400441833 /* Foto's */,
 				970C7BE9191FDFF300441833 /* About */,
 				970C7BE8191FDFC900441833 /* RevealViewController */,
 				970C7BCB191FDD8000441833 /* Images.xcassets */,
@@ -326,15 +322,6 @@
 			name = Home;
 			sourceTree = "<group>";
 		};
-		970C7C05191FE5C400441833 /* Foto's */ = {
-			isa = PBXGroup;
-			children = (
-				970C7C09191FEE7D00441833 /* FotoViewController.h */,
-				970C7C0A191FEE7D00441833 /* FotoViewController.m */,
-			);
-			name = "Foto's";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -452,7 +439,6 @@
 				97BFF11719269552003FAF37 /* Victor&TheBloodViewController.m in Sources */,
 				97BFF0EF19252667003FAF37 /* PetrolViewController.m in Sources */,
 				97BFF10B19269501003FAF37 /* DeBerenGierenViewController.m in Sources */,
-				970C7C0B191FEE7D00441833 /* FotoViewController.m in Sources */,
 				970C7C11191FFDD800441833 /* MenuItem.m in Sources */,
 				97BFF120192695A1003FAF37 /* IntergalacticLoversViewController.m in Sources */,
 				970C7C0E191FFB2F00441833 /* MenuModel.m in Sources */,

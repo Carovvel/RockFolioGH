@@ -9,5 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface OthinSpakeViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *othinPhoto1;
+@property (strong, nonatomic) IBOutlet UIImageView *othinPhoto2;
+@property (strong, nonatomic) IBOutlet UIImageView *othinPhoto3;
+@property (strong, nonatomic) IBOutlet UIImageView *othinPhoto4;
+@property (strong, nonatomic) IBOutlet UIImageView *othinPhoto5;
+@property (strong, nonatomic) IBOutlet UIImageView *othinPhoto6;
+@property (strong, nonatomic) IBOutlet UIImageView *othinPhoto7;
+@property (strong, nonatomic) IBOutlet UIImageView *othinPhoto8;
 
 @end

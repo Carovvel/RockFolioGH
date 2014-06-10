@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="7VU-5B-UH3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13D65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="7VU-5B-UH3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -244,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CTj-t3-Nib" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2627" y="-655"/>
+            <point key="canvasLocation" x="2633" y="-1055"/>
         </scene>
         <!--Trix View Controller-->
         <scene sceneID="ItJ-VI-8fX">
@@ -278,18 +278,6 @@
                                 <rect key="frame" x="260" y="23" width="43" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OthinSpakebutton" translatesAutoresizingMaskIntoConstraints="NO" id="e9f-1h-7Am">
-                                <rect key="frame" x="40" y="107" width="240" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Victor&amp;TheBloodbutton" translatesAutoresizingMaskIntoConstraints="NO" id="dyW-XJ-HBL">
-                                <rect key="frame" x="40" y="201" width="240" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TheSoundsButton" translatesAutoresizingMaskIntoConstraints="NO" id="5SQ-At-h71">
-                                <rect key="frame" x="40" y="295" width="240" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMQ-Ei-Sip">
                                 <rect key="frame" x="16" y="496" width="71" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -300,6 +288,36 @@
                                     <action selector="backButtonTapped:" destination="a9y-Fw-8QQ" eventType="touchUpInside" id="CJ9-HS-LXr"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dNG-wi-7zj">
+                                <rect key="frame" x="16" y="107" width="289" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="OthinSpakebutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ucP-TN-9h1" kind="push" id="blH-4s-bc4"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OgK-lt-Pvb">
+                                <rect key="frame" x="16" y="200" width="289" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Victor&amp;TheBloodbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="YTx-Qe-VvA" kind="push" id="jeR-fe-W3M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SCA-XC-ih8">
+                                <rect key="frame" x="16" y="295" width="289" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="TheSoundsButton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sYc-rK-7lS" kind="push" id="zmJ-Yn-5iG"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -307,7 +325,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PVK-EW-pku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2627" y="28"/>
+            <point key="canvasLocation" x="2627" y="321"/>
         </scene>
         <!--Petrol View Controller-->
         <scene sceneID="TZm-jo-BVE">
@@ -341,10 +359,6 @@
                                 <rect key="frame" x="260" y="23" width="43" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DeJeugdVanTegenwoordigbutton" translatesAutoresizingMaskIntoConstraints="NO" id="AVV-bV-iuc">
-                                <rect key="frame" x="40" y="107" width="240" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lt9-Ni-0Tn">
                                 <rect key="frame" x="16" y="496" width="71" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -355,6 +369,16 @@
                                     <action selector="backButtonTapped:" destination="pUX-mP-Ttx" eventType="touchUpInside" id="1Ip-HW-Sya"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xt2-o4-Lbo">
+                                <rect key="frame" x="43" y="107" width="234" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="DeJeugdVanTegenwoordigbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="XbK-d6-PJv" kind="push" id="ZHt-0g-nav"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -362,7 +386,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="upg-yB-MgL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2633" y="724"/>
+            <point key="canvasLocation" x="2633" y="1056"/>
         </scene>
         <!--Okon The Movement View Controller-->
         <scene sceneID="TeS-O1-wrl">
@@ -388,7 +412,7 @@
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OKON&amp;THE MOVEMENT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sjo-GO-9Rj">
                                 <rect key="frame" x="49" y="39" width="215" height="23"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -455,7 +479,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YQn-ee-HPQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3305" y="-2485"/>
+            <point key="canvasLocation" x="2627" y="-1761"/>
         </scene>
         <!--Reveal View Controller-->
         <scene sceneID="lZN-io-7DP">
@@ -637,10 +661,6 @@
                                 <rect key="frame" x="260" y="23" width="43" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IntergalacticLoversbutton&amp;" translatesAutoresizingMaskIntoConstraints="NO" id="bHo-Mp-r4h">
-                                <rect key="frame" x="40" y="107" width="240" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oQ4-um-0ch">
                                 <rect key="frame" x="16" y="496" width="71" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -651,6 +671,16 @@
                                     <action selector="backButtonTapped:" destination="zh7-bc-nmX" eventType="touchUpInside" id="aRt-Qh-Qas"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qmC-6g-C2s">
+                                <rect key="frame" x="23" y="107" width="274" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="IntergalacticLoversbutton&amp;">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="t7D-jH-ZeW" kind="push" id="RYr-Kx-jOl"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -658,7 +688,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uED-Tr-1ML" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2639" y="1416"/>
+            <point key="canvasLocation" x="2649" y="1744"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9f9-SU-YDq">
@@ -692,14 +722,6 @@
                                 <rect key="frame" x="260" y="23" width="43" height="49"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="TheSubsbutton" translatesAutoresizingMaskIntoConstraints="NO" id="DsA-Vg-Vfo">
-                                <rect key="frame" x="40" y="107" width="240" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MarbleSoundsbutton" translatesAutoresizingMaskIntoConstraints="NO" id="tNY-qr-Iyc">
-                                <rect key="frame" x="40" y="201" width="240" height="86"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RM7-3h-heQ">
                                 <rect key="frame" x="16" y="496" width="71" height="52"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -710,6 +732,26 @@
                                     <action selector="backButtonTapped:" destination="G5t-wb-RSz" eventType="touchUpInside" id="otA-fu-DxT"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="drU-D2-5rJ">
+                                <rect key="frame" x="43" y="107" width="234" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="TheSubsbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="t5H-Z4-x9x" kind="push" id="PgT-qf-xzN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p7l-sX-qpr">
+                                <rect key="frame" x="43" y="200" width="234" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="MarbleSoundsbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Cy6-av-XM9" kind="push" id="faL-gX-raA"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -717,7 +759,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wze-Mc-iyP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2633" y="2064"/>
+            <point key="canvasLocation" x="2649" y="2448"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="fIj-dr-Raq">
@@ -779,10 +821,52 @@
                                     <action selector="backButtonTapped:" destination="jVu-bV-8HB" eventType="touchUpInside" id="Ebd-xB-rH4"/>
                                 </connections>
                             </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReutPhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="lXo-BC-Je0">
+                                <rect key="frame" x="45" y="101" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReutPhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="eMP-xs-hMO">
+                                <rect key="frame" x="180" y="101" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReutPhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="ncK-wQ-H1d">
+                                <rect key="frame" x="45" y="207" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReutPhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="djg-Uv-Kii">
+                                <rect key="frame" x="180" y="207" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReutPhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="fVI-3S-xy6">
+                                <rect key="frame" x="45" y="312" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReutPhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="hGl-1b-UTk">
+                                <rect key="frame" x="180" y="312" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReutPhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="XgS-9C-48A">
+                                <rect key="frame" x="45" y="414" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReutPhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="sQT-oi-5JY">
+                                <rect key="frame" x="180" y="414" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="3Ge-nj-gop"/>
+                    <connections>
+                        <outlet property="reutPhoto1" destination="lXo-BC-Je0" id="9Iz-TW-OZH"/>
+                        <outlet property="reutPhoto2" destination="eMP-xs-hMO" id="i4Z-xO-dqN"/>
+                        <outlet property="reutPhoto3" destination="ncK-wQ-H1d" id="LzF-bU-jx7"/>
+                        <outlet property="reutPhoto4" destination="djg-Uv-Kii" id="JIg-7g-Rfc"/>
+                        <outlet property="reutPhoto5" destination="fVI-3S-xy6" id="5Cu-A0-ldY"/>
+                        <outlet property="reutPhoto6" destination="hGl-1b-UTk" id="Pjn-Qa-jqw"/>
+                        <outlet property="reutPhoto7" destination="XgS-9C-48A" id="4Ee-zG-eol"/>
+                        <outlet property="reutPhoto8" destination="sQT-oi-5JY" id="oMa-1Q-ZGh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YdB-f6-pgQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -920,13 +1004,55 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="backButtonTapped:" destination="dzd-TW-dMD" eventType="touchUpInside" id="rV3-yj-fmN"/>
+                                    <action selector="backButtonTapped:" destination="dzd-TW-dMD" eventType="touchUpInside" id="3s8-Ax-Ucp"/>
                                 </connections>
                             </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReenaPhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="Omt-7e-zgV">
+                                <rect key="frame" x="45" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReenaPhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="q6f-vl-3wu">
+                                <rect key="frame" x="180" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReenaPhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="RlR-nC-mzV">
+                                <rect key="frame" x="45" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReenaPhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="8bo-2u-q5v">
+                                <rect key="frame" x="180" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReenaPhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="1pb-TV-8gr">
+                                <rect key="frame" x="45" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReenaPhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="sAx-Wo-NoT">
+                                <rect key="frame" x="180" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReenaPhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="kMr-wH-E3J">
+                                <rect key="frame" x="45" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ReenaPhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="TDC-D3-y8T">
+                                <rect key="frame" x="180" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="gKm-WL-OjZ"/>
+                    <connections>
+                        <outlet property="reenaPhoto1" destination="Omt-7e-zgV" id="MNy-yP-28c"/>
+                        <outlet property="reenaPhoto2" destination="q6f-vl-3wu" id="21n-l6-dUg"/>
+                        <outlet property="reenaPhoto3" destination="RlR-nC-mzV" id="Yzr-Nm-oy9"/>
+                        <outlet property="reenaPhoto4" destination="8bo-2u-q5v" id="riV-27-wUE"/>
+                        <outlet property="reenaPhoto5" destination="1pb-TV-8gr" id="8nI-Ct-SMb"/>
+                        <outlet property="reenaPhoto6" destination="sAx-Wo-NoT" id="u6O-oO-rpI"/>
+                        <outlet property="reenaPhoto7" destination="kMr-wH-E3J" id="C6q-eP-fzE"/>
+                        <outlet property="reenaPhoto8" destination="TDC-D3-y8T" id="VGV-NF-mBA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JGc-n7-ksb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -971,17 +1097,718 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="backButtonTapped:" destination="ucP-TN-9h1" eventType="touchUpInside" id="S88-5v-1hA"/>
+                                    <action selector="backButtonTapped:" destination="ucP-TN-9h1" eventType="touchUpInside" id="vZn-ZW-jdH"/>
                                 </connections>
                             </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OthinPhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="CuD-Pr-xVO">
+                                <rect key="frame" x="45" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OthinPhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="mq7-aO-O0M">
+                                <rect key="frame" x="180" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OthinPhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="fdp-f8-a6K">
+                                <rect key="frame" x="45" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OthinPhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="cKW-qO-zDZ">
+                                <rect key="frame" x="180" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OthinPhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="9AY-Ob-Trx">
+                                <rect key="frame" x="45" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OthinPhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="o9s-h6-p7s">
+                                <rect key="frame" x="180" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OthinPhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="vN3-6d-ahu">
+                                <rect key="frame" x="45" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="OthinPhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="A3P-ki-Btc">
+                                <rect key="frame" x="180" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="XZo-eH-NI2"/>
+                    <connections>
+                        <outlet property="othinPhoto1" destination="CuD-Pr-xVO" id="ZQZ-fp-mgU"/>
+                        <outlet property="othinPhoto2" destination="mq7-aO-O0M" id="qz4-mc-5eb"/>
+                        <outlet property="othinPhoto3" destination="fdp-f8-a6K" id="1SV-2e-OZS"/>
+                        <outlet property="othinPhoto4" destination="cKW-qO-zDZ" id="tc9-aU-N9i"/>
+                        <outlet property="othinPhoto5" destination="9AY-Ob-Trx" id="zv3-pI-zbf"/>
+                        <outlet property="othinPhoto6" destination="o9s-h6-p7s" id="PgL-I0-7ce"/>
+                        <outlet property="othinPhoto7" destination="vN3-6d-ahu" id="ZTY-2e-6we"/>
+                        <outlet property="othinPhoto8" destination="A3P-ki-Btc" id="lat-3l-ctz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T4I-t2-7vK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3305" y="321"/>
+            <point key="canvasLocation" x="3305" y="315"/>
+        </scene>
+        <!--Victor The Blood View Controller-->
+        <scene sceneID="wmP-4R-Jsw">
+            <objects>
+                <viewController id="YTx-Qe-VvA" customClass="Victor_TheBloodViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UQg-wO-phC"/>
+                        <viewControllerLayoutGuide type="bottom" id="XRA-vo-41M"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="rvr-m0-jHA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UrD-XC-Dqd">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="Kok-KT-x62">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="VICTOR&amp;THE BLOOD" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOh-5h-LSm">
+                                <rect key="frame" x="55" y="39" width="211" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="GQ4-JD-I1W">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HbS-w7-G2r">
+                                <rect key="frame" x="16" y="502" width="71" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Backbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="YTx-Qe-VvA" eventType="touchUpInside" id="bKV-Rq-iSN"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VictorPhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="vAr-JC-4X1">
+                                <rect key="frame" x="45" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VictorPhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="ZhL-Zs-Fhz">
+                                <rect key="frame" x="180" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VictorPhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="EcZ-aA-k3w">
+                                <rect key="frame" x="45" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VictorPhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="VFl-QW-dXr">
+                                <rect key="frame" x="180" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VictorPhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="WVl-RM-J9O">
+                                <rect key="frame" x="45" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VictorPhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="mGQ-vA-H9V">
+                                <rect key="frame" x="180" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VictorPhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="uaV-PY-xOk">
+                                <rect key="frame" x="45" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="VictorPhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="2wM-xg-Ep2">
+                                <rect key="frame" x="180" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="3Kl-Qn-9fA"/>
+                    <connections>
+                        <outlet property="victorPhoto1" destination="vAr-JC-4X1" id="y2T-oB-azQ"/>
+                        <outlet property="victorPhoto2" destination="ZhL-Zs-Fhz" id="GNu-YP-rrR"/>
+                        <outlet property="victorPhoto3" destination="EcZ-aA-k3w" id="h8p-bY-q7f"/>
+                        <outlet property="victorPhoto4" destination="VFl-QW-dXr" id="lvw-ud-0hF"/>
+                        <outlet property="victorPhoto5" destination="WVl-RM-J9O" id="yiN-DU-U37"/>
+                        <outlet property="victorPhoto6" destination="mGQ-vA-H9V" id="bH9-Vu-RQB"/>
+                        <outlet property="victorPhoto7" destination="uaV-PY-xOk" id="XiY-cL-u9I"/>
+                        <outlet property="victorPhoto8" destination="2wM-xg-Ep2" id="bFl-09-31O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oZV-Bb-JOl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3713" y="563"/>
+        </scene>
+        <!--The Sounds View Controller-->
+        <scene sceneID="fbz-qf-TLf">
+            <objects>
+                <viewController id="sYc-rK-7lS" customClass="TheSoundsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JoO-Pp-Fjn"/>
+                        <viewControllerLayoutGuide type="bottom" id="Pbh-dc-fTn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EH6-5y-jMI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i9m-BN-iZS">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="Lqc-FO-8YT">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE SOUNDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c98-jT-ut2">
+                                <rect key="frame" x="55" y="39" width="211" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="OOa-Cv-mdg">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6iU-lK-qO1">
+                                <rect key="frame" x="16" y="502" width="71" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Backbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="sYc-rK-7lS" eventType="touchUpInside" id="wgW-qr-uc6"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SoundsPhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="Koa-9S-FNI">
+                                <rect key="frame" x="45" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SoundsPhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="jsF-VE-NqQ">
+                                <rect key="frame" x="180" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SoundsPhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="JBd-YA-Vz5">
+                                <rect key="frame" x="45" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SoundsPhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="LNx-fQ-mDU">
+                                <rect key="frame" x="180" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SoundsPhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="Y3g-sK-8lK">
+                                <rect key="frame" x="45" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SoundsPhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="UXF-tL-ONA">
+                                <rect key="frame" x="180" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SoundsPhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="xVo-HB-Q20">
+                                <rect key="frame" x="45" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SoundsPhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="sFC-Rv-rwY">
+                                <rect key="frame" x="180" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZzA-XI-W50"/>
+                    <connections>
+                        <outlet property="soundsPhoto1" destination="Koa-9S-FNI" id="gPl-OT-5GB"/>
+                        <outlet property="soundsPhoto2" destination="jsF-VE-NqQ" id="5yp-eF-vje"/>
+                        <outlet property="soundsPhoto3" destination="JBd-YA-Vz5" id="Rdp-mH-GHr"/>
+                        <outlet property="soundsPhoto4" destination="LNx-fQ-mDU" id="pm2-R1-6QY"/>
+                        <outlet property="soundsPhoto5" destination="Y3g-sK-8lK" id="HjY-6N-TdB"/>
+                        <outlet property="soundsPhoto6" destination="UXF-tL-ONA" id="Fjx-qr-3Fg"/>
+                        <outlet property="soundsPhoto7" destination="xVo-HB-Q20" id="x7c-e7-g4C"/>
+                        <outlet property="soundsPhoto8" destination="sFC-Rv-rwY" id="0r8-VT-oAY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nQH-jv-d4I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4121" y="463"/>
+        </scene>
+        <!--De Jeugd Van Tegenwoordig View Controller-->
+        <scene sceneID="cVz-Hg-E9S">
+            <objects>
+                <viewController id="bjQ-JM-46A" customClass="DeJeugdVanTegenwoordigViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LnS-pC-Mdb"/>
+                        <viewControllerLayoutGuide type="bottom" id="BhC-1U-Wpc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7m5-HD-7pW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="im1-WG-6Cm">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="GWv-2P-H2E">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DE JEUGD VAN TEGENWOORDIG" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="227" translatesAutoresizingMaskIntoConstraints="NO" id="9vP-IX-KeY">
+                                <rect key="frame" x="45" y="17" width="227" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="xAK-EJ-Wi4">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbK-dw-x8e">
+                                <rect key="frame" x="16" y="502" width="71" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Backbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="bjQ-JM-46A" eventType="touchUpInside" id="AVu-L9-vpd"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="wfw-Wp-qQF">
+                                <rect key="frame" x="45" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="hQM-eQ-mFE">
+                                <rect key="frame" x="180" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="Jf3-Mh-6OI">
+                                <rect key="frame" x="45" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="2my-I5-7e1">
+                                <rect key="frame" x="180" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="qwL-Fb-oEZ">
+                                <rect key="frame" x="45" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="Un9-dZ-bw6">
+                                <rect key="frame" x="180" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="Fl8-Oh-XfC">
+                                <rect key="frame" x="45" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="AVD-Rn-eIw">
+                                <rect key="frame" x="180" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uff-5T-H8s"/>
+                    <connections>
+                        <outlet property="jeugdPhoto1" destination="wfw-Wp-qQF" id="t0H-xZ-SLz"/>
+                        <outlet property="jeugdPhoto2" destination="hQM-eQ-mFE" id="JXc-xM-dyP"/>
+                        <outlet property="jeugdPhoto3" destination="Jf3-Mh-6OI" id="bU2-vk-biG"/>
+                        <outlet property="jeugdPhoto4" destination="2my-I5-7e1" id="sm4-E2-pam"/>
+                        <outlet property="jeugdPhoto5" destination="qwL-Fb-oEZ" id="96G-TW-sfE"/>
+                        <outlet property="jeugdPhoto6" destination="Un9-dZ-bw6" id="uPV-qh-uw0"/>
+                        <outlet property="jeugdPhoto7" destination="Fl8-Oh-XfC" id="uSP-m2-pc7"/>
+                        <outlet property="jeugdPhoto8" destination="AVD-Rn-eIw" id="tds-Kt-Ygx"/>
+                        <outlet property="othinPhoto1" destination="wfw-Wp-qQF" id="bYf-6b-6jh"/>
+                        <outlet property="othinPhoto2" destination="hQM-eQ-mFE" id="nEG-nh-GQW"/>
+                        <outlet property="othinPhoto3" destination="Jf3-Mh-6OI" id="CM5-36-1zk"/>
+                        <outlet property="othinPhoto4" destination="2my-I5-7e1" id="Uur-Wt-8bY"/>
+                        <outlet property="othinPhoto5" destination="qwL-Fb-oEZ" id="Dr8-Fh-v2m"/>
+                        <outlet property="othinPhoto6" destination="Un9-dZ-bw6" id="Ic9-74-JV1"/>
+                        <outlet property="othinPhoto7" destination="Fl8-Oh-XfC" id="6ll-kH-8zm"/>
+                        <outlet property="othinPhoto8" destination="AVD-Rn-eIw" id="lG9-fz-Tbu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OCS-Z9-P4h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3077" y="1056"/>
+        </scene>
+        <!--De Jeugd Van Tegenwoordig View Controller-->
+        <scene sceneID="dWY-ei-hBQ">
+            <objects>
+                <viewController id="XbK-d6-PJv" customClass="DeJeugdVanTegenwoordigViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="olS-u1-vgX"/>
+                        <viewControllerLayoutGuide type="bottom" id="efu-I4-L0E"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HGV-BA-j0F">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aJe-0x-XfL">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="5vK-ak-EnP">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DE JEUGD VAN TEGENWOORDIG" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="227" translatesAutoresizingMaskIntoConstraints="NO" id="L8I-4G-LQT">
+                                <rect key="frame" x="45" y="17" width="227" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="t10-ks-wJt">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hdU-gp-llU">
+                                <rect key="frame" x="16" y="502" width="71" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Backbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="XbK-d6-PJv" eventType="touchUpInside" id="rXu-LT-wTy"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="AIX-Xg-IgQ">
+                                <rect key="frame" x="45" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="7Ez-KM-okX">
+                                <rect key="frame" x="180" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="bam-f6-lTY">
+                                <rect key="frame" x="45" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="jNH-MZ-ERr">
+                                <rect key="frame" x="180" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="YC6-yC-ggv">
+                                <rect key="frame" x="45" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="8Tk-pN-hmE">
+                                <rect key="frame" x="180" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="IYM-yg-j9r">
+                                <rect key="frame" x="45" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="JeugdPhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="9bw-A4-YYx">
+                                <rect key="frame" x="180" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="PNt-zF-OsB"/>
+                    <connections>
+                        <outlet property="jeugdPhoto1" destination="AIX-Xg-IgQ" id="dc3-Wb-UdQ"/>
+                        <outlet property="jeugdPhoto2" destination="7Ez-KM-okX" id="JwN-kj-TJt"/>
+                        <outlet property="jeugdPhoto3" destination="bam-f6-lTY" id="bnx-Hz-Dev"/>
+                        <outlet property="jeugdPhoto4" destination="jNH-MZ-ERr" id="Hdc-Eq-NAa"/>
+                        <outlet property="jeugdPhoto5" destination="YC6-yC-ggv" id="rcE-J3-WWl"/>
+                        <outlet property="jeugdPhoto6" destination="8Tk-pN-hmE" id="ZZL-WL-vXi"/>
+                        <outlet property="jeugdPhoto7" destination="IYM-yg-j9r" id="QPm-vD-9iX"/>
+                        <outlet property="jeugdPhoto8" destination="9bw-A4-YYx" id="CS7-cG-B8F"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RiK-2m-qmi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3077" y="1056"/>
+        </scene>
+        <!--Intergalactic Lovers View Controller-->
+        <scene sceneID="mcb-A7-4Z9">
+            <objects>
+                <viewController id="t7D-jH-ZeW" customClass="IntergalacticLoversViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pxu-rm-y28"/>
+                        <viewControllerLayoutGuide type="bottom" id="fbV-sH-8yl"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="eeu-Uv-XLM">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jV7-0J-KFN">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="AqS-hi-vNb">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INTERGALACTIC LOVERS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hx3-so-Ec4">
+                                <rect key="frame" x="48" y="39" width="221" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="sIT-t7-kph">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zkq-Av-pMl">
+                                <rect key="frame" x="16" y="502" width="71" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Backbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="t7D-jH-ZeW" eventType="touchUpInside" id="wvD-4u-xzG"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IntergalacticPhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="cYF-2c-gZY">
+                                <rect key="frame" x="45" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IntergalacticPhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="oZ2-3h-HgP">
+                                <rect key="frame" x="180" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IntergalacticPhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="oJz-Xx-J9A">
+                                <rect key="frame" x="45" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IntergalacticPhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="8LK-za-HkA">
+                                <rect key="frame" x="180" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IntergalacticPhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="tyJ-e9-bxB">
+                                <rect key="frame" x="45" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IntergalacticPhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="Ov9-hK-yoy">
+                                <rect key="frame" x="180" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IntergalacticPhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="0jA-XE-v5k">
+                                <rect key="frame" x="45" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IntergalacticPhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="jjp-wh-Qcc">
+                                <rect key="frame" x="180" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gZg-mo-q6s"/>
+                    <connections>
+                        <outlet property="galacticPhoto1" destination="cYF-2c-gZY" id="und-Pz-V3N"/>
+                        <outlet property="galacticPhoto2" destination="oZ2-3h-HgP" id="tmM-bx-IAu"/>
+                        <outlet property="galacticPhoto3" destination="oJz-Xx-J9A" id="SFS-fB-LuO"/>
+                        <outlet property="galacticPhoto4" destination="8LK-za-HkA" id="Vvf-bC-mz1"/>
+                        <outlet property="galacticPhoto5" destination="tyJ-e9-bxB" id="BbQ-fF-1yH"/>
+                        <outlet property="galacticPhoto6" destination="Ov9-hK-yoy" id="6iX-bV-MTJ"/>
+                        <outlet property="galacticPhoto7" destination="0jA-XE-v5k" id="4Vb-Ij-cbW"/>
+                        <outlet property="galacticPhoto8" destination="jjp-wh-Qcc" id="h30-U7-dLA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sc5-rY-yJe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3085" y="1751"/>
+        </scene>
+        <!--The Subs View Controller-->
+        <scene sceneID="oTB-Hf-PBi">
+            <objects>
+                <viewController id="t5H-Z4-x9x" customClass="TheSubsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JLi-Af-8u6"/>
+                        <viewControllerLayoutGuide type="bottom" id="Lr4-aU-Squ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VMT-BH-5Eb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QdQ-cY-C6y">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="Cam-nU-fip">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="THE SUBS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eEt-oq-ogJ">
+                                <rect key="frame" x="98" y="39" width="125" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="C2x-3e-6HK">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="be7-gZ-7fe">
+                                <rect key="frame" x="16" y="502" width="71" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Backbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="t5H-Z4-x9x" eventType="touchUpInside" id="38c-mN-zBX"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SubsPhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="VF2-cX-eOn">
+                                <rect key="frame" x="45" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SubsPhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="qVV-ak-UAp">
+                                <rect key="frame" x="180" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SubsPhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="BbW-UN-L8Q">
+                                <rect key="frame" x="45" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SubsPhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="3Dc-4p-zPd">
+                                <rect key="frame" x="180" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SubsPhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="1q8-RG-YSO">
+                                <rect key="frame" x="45" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SubsPhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="hdC-nU-EuQ">
+                                <rect key="frame" x="180" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SubsPhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="7Fq-pl-mod">
+                                <rect key="frame" x="45" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="SubsPhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="9ll-hl-coG">
+                                <rect key="frame" x="180" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dCa-fX-I2q"/>
+                    <connections>
+                        <outlet property="subsPhoto1" destination="VF2-cX-eOn" id="KLI-8N-WdI"/>
+                        <outlet property="subsPhoto2" destination="qVV-ak-UAp" id="gY4-tx-0ey"/>
+                        <outlet property="subsPhoto3" destination="BbW-UN-L8Q" id="6fd-rC-UXi"/>
+                        <outlet property="subsPhoto4" destination="3Dc-4p-zPd" id="SQl-A8-t6t"/>
+                        <outlet property="subsPhoto5" destination="1q8-RG-YSO" id="r1G-Gw-jxH"/>
+                        <outlet property="subsPhoto6" destination="hdC-nU-EuQ" id="x79-cq-J6l"/>
+                        <outlet property="subsPhoto7" destination="7Fq-pl-mod" id="QYt-jY-MNm"/>
+                        <outlet property="subsPhoto8" destination="9ll-hl-coG" id="Bqk-uY-atg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SeS-7i-UKf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3093" y="2448"/>
+        </scene>
+        <!--Marble Sounds View Controller-->
+        <scene sceneID="7H1-4L-U9h">
+            <objects>
+                <viewController id="Cy6-av-XM9" customClass="MarbleSoundsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UfE-2Q-Zr6"/>
+                        <viewControllerLayoutGuide type="bottom" id="whA-Ec-XjN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jM2-YY-gxz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="csh-ws-yku">
+                                <rect key="frame" x="0.0" y="20" width="320" height="56"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.32156862749999998" green="0.53725490200000003" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Navigationbutton" translatesAutoresizingMaskIntoConstraints="NO" id="QZJ-nE-7oD">
+                                <rect key="frame" x="0.0" y="26" width="57" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MARBLE SOUNDS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEw-mX-86u">
+                                <rect key="frame" x="49" y="39" width="215" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RockWhiteicon" translatesAutoresizingMaskIntoConstraints="NO" id="uba-te-tio">
+                                <rect key="frame" x="260" y="23" width="43" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dgx-V1-iHx">
+                                <rect key="frame" x="16" y="502" width="71" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Backbutton">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backButtonTapped:" destination="Cy6-av-XM9" eventType="touchUpInside" id="bEZ-Mc-BJz"/>
+                                </connections>
+                            </button>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MarblePhoto1Large" translatesAutoresizingMaskIntoConstraints="NO" id="LM9-u9-Umj">
+                                <rect key="frame" x="45" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MarblePhoto2Large" translatesAutoresizingMaskIntoConstraints="NO" id="nmH-3F-2qO">
+                                <rect key="frame" x="180" y="102" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MarblePhoto3Large" translatesAutoresizingMaskIntoConstraints="NO" id="Ahr-5K-5RI">
+                                <rect key="frame" x="45" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MarblePhoto4Large" translatesAutoresizingMaskIntoConstraints="NO" id="Ylh-La-adU">
+                                <rect key="frame" x="180" y="208" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MarblePhoto5Large" translatesAutoresizingMaskIntoConstraints="NO" id="BGA-xG-PmJ">
+                                <rect key="frame" x="45" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MarblePhoto6Large" translatesAutoresizingMaskIntoConstraints="NO" id="AeW-gc-WM2">
+                                <rect key="frame" x="180" y="313" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MarblePhoto7Large" translatesAutoresizingMaskIntoConstraints="NO" id="HAW-Bk-ZbI">
+                                <rect key="frame" x="45" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView autoresizesSubviews="NO" clipsSubviews="YES" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MarblePhoto8Large" translatesAutoresizingMaskIntoConstraints="NO" id="3cD-NC-RUh">
+                                <rect key="frame" x="180" y="415" width="95" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QTd-qa-4gl"/>
+                    <connections>
+                        <outlet property="marblePhoto1" destination="LM9-u9-Umj" id="xE9-Bo-6EQ"/>
+                        <outlet property="marblePhoto2" destination="nmH-3F-2qO" id="bjf-JQ-LCr"/>
+                        <outlet property="marblePhoto3" destination="Ahr-5K-5RI" id="sSh-GX-Ot5"/>
+                        <outlet property="marblePhoto4" destination="Ylh-La-adU" id="fkT-xW-7Qh"/>
+                        <outlet property="marblePhoto5" destination="BGA-xG-PmJ" id="QXe-ne-194"/>
+                        <outlet property="marblePhoto6" destination="AeW-gc-WM2" id="6yP-90-aMb"/>
+                        <outlet property="marblePhoto7" destination="HAW-Bk-ZbI" id="RPr-lp-Ikt"/>
+                        <outlet property="marblePhoto8" destination="3cD-NC-RUh" id="fEZ-KF-BJx"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="r5A-kA-Gpa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3093" y="3128"/>
         </scene>
     </scenes>
     <resources>
@@ -1000,6 +1827,30 @@
         <image name="HomeRockfoliobutton" width="185" height="40"/>
         <image name="HomeRockfolioimage" width="253" height="308"/>
         <image name="IntergalacticLoversbutton&amp;" width="234" height="88"/>
+        <image name="IntergalacticPhoto1Large" width="320" height="568"/>
+        <image name="IntergalacticPhoto2Large" width="320" height="568"/>
+        <image name="IntergalacticPhoto3Large" width="320" height="568"/>
+        <image name="IntergalacticPhoto4Large" width="320" height="568"/>
+        <image name="IntergalacticPhoto5Large" width="320" height="568"/>
+        <image name="IntergalacticPhoto6Large" width="320" height="568"/>
+        <image name="IntergalacticPhoto7Large" width="320" height="568"/>
+        <image name="IntergalacticPhoto8Large" width="320" height="568"/>
+        <image name="JeugdPhoto1Large" width="320" height="568"/>
+        <image name="JeugdPhoto2Large" width="320" height="568"/>
+        <image name="JeugdPhoto3Large" width="320" height="568"/>
+        <image name="JeugdPhoto4Large" width="320" height="568"/>
+        <image name="JeugdPhoto5Large" width="320" height="568"/>
+        <image name="JeugdPhoto6Large" width="320" height="568"/>
+        <image name="JeugdPhoto7Large" width="320" height="568"/>
+        <image name="JeugdPhoto8Large" width="320" height="568"/>
+        <image name="MarblePhoto1Large" width="320" height="568"/>
+        <image name="MarblePhoto2Large" width="320" height="568"/>
+        <image name="MarblePhoto3Large" width="320" height="568"/>
+        <image name="MarblePhoto4Large" width="320" height="568"/>
+        <image name="MarblePhoto5Large" width="320" height="568"/>
+        <image name="MarblePhoto6Large" width="320" height="568"/>
+        <image name="MarblePhoto7Large" width="320" height="568"/>
+        <image name="MarblePhoto8Large" width="320" height="568"/>
         <image name="MarbleSoundsbutton" width="234" height="88"/>
         <image name="Navigationbutton" width="36" height="34"/>
         <image name="Okon&amp;TheMovementbutton" width="234" height="88"/>
@@ -1011,11 +1862,51 @@
         <image name="OkonPhoto6Large" width="320" height="568"/>
         <image name="OkonPhoto7Large" width="320" height="568"/>
         <image name="OkonPhoto8Large" width="320" height="568"/>
+        <image name="OthinPhoto1Large" width="320" height="568"/>
+        <image name="OthinPhoto2Large" width="320" height="568"/>
+        <image name="OthinPhoto3Large" width="320" height="568"/>
+        <image name="OthinPhoto4Large" width="320" height="568"/>
+        <image name="OthinPhoto5Large" width="320" height="568"/>
+        <image name="OthinPhoto6Large" width="320" height="568"/>
+        <image name="OthinPhoto7Large" width="320" height="568"/>
+        <image name="OthinPhoto8Large" width="320" height="568"/>
         <image name="OthinSpakebutton" width="234" height="88"/>
+        <image name="ReenaPhoto1Large" width="320" height="568"/>
+        <image name="ReenaPhoto2Large" width="320" height="568"/>
+        <image name="ReenaPhoto3Large" width="320" height="568"/>
+        <image name="ReenaPhoto4Large" width="320" height="568"/>
+        <image name="ReenaPhoto5Large" width="320" height="568"/>
+        <image name="ReenaPhoto6Large" width="320" height="568"/>
+        <image name="ReenaPhoto7Large" width="320" height="568"/>
+        <image name="ReenaPhoto8Large" width="320" height="568"/>
         <image name="ReenaRiotbutton" width="234" height="88"/>
+        <image name="ReutPhoto1Large" width="320" height="568"/>
+        <image name="ReutPhoto2Large" width="320" height="568"/>
+        <image name="ReutPhoto3Large" width="320" height="568"/>
+        <image name="ReutPhoto4Large" width="320" height="568"/>
+        <image name="ReutPhoto5Large" width="320" height="568"/>
+        <image name="ReutPhoto6Large" width="320" height="568"/>
+        <image name="ReutPhoto7Large" width="320" height="568"/>
+        <image name="ReutPhoto8Large" width="320" height="568"/>
         <image name="ReutRegevbutton" width="234" height="88"/>
         <image name="RockGreenicon" width="43" height="46"/>
         <image name="RockWhiteicon" width="36" height="46"/>
+        <image name="SoundsPhoto1Large" width="320" height="568"/>
+        <image name="SoundsPhoto2Large" width="320" height="568"/>
+        <image name="SoundsPhoto3Large" width="320" height="568"/>
+        <image name="SoundsPhoto4Large" width="320" height="568"/>
+        <image name="SoundsPhoto5Large" width="320" height="568"/>
+        <image name="SoundsPhoto6Large" width="320" height="568"/>
+        <image name="SoundsPhoto7Large" width="320" height="568"/>
+        <image name="SoundsPhoto8Large" width="320" height="568"/>
+        <image name="SubsPhoto1Large" width="320" height="568"/>
+        <image name="SubsPhoto2Large" width="320" height="568"/>
+        <image name="SubsPhoto3Large" width="320" height="568"/>
+        <image name="SubsPhoto4Large" width="320" height="568"/>
+        <image name="SubsPhoto5Large" width="320" height="568"/>
+        <image name="SubsPhoto6Large" width="320" height="568"/>
+        <image name="SubsPhoto7Large" width="320" height="568"/>
+        <image name="SubsPhoto8Large" width="320" height="568"/>
         <image name="TheSoundsButton" width="234" height="88"/>
         <image name="TheSubsbutton" width="234" height="88"/>
         <image name="VenueABbutton" width="234" height="76"/>
@@ -1024,6 +1915,14 @@
         <image name="VenueRataplanbutton" width="234" height="76"/>
         <image name="VenueTrixbutton" width="234" height="76"/>
         <image name="Victor&amp;TheBloodbutton" width="234" height="88"/>
+        <image name="VictorPhoto1Large" width="320" height="568"/>
+        <image name="VictorPhoto2Large" width="320" height="568"/>
+        <image name="VictorPhoto3Large" width="320" height="568"/>
+        <image name="VictorPhoto4Large" width="320" height="568"/>
+        <image name="VictorPhoto5Large" width="320" height="568"/>
+        <image name="VictorPhoto6Large" width="320" height="568"/>
+        <image name="VictorPhoto7Large" width="320" height="568"/>
+        <image name="VictorPhoto8Large" width="320" height="568"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -1031,12 +1930,12 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="OhC-XD-CbX"/>
+        <segue reference="GqH-Eh-2f4"/>
+        <segue reference="YzS-cr-H8V"/>
         <segue reference="ojk-nY-glN"/>
-        <segue reference="LXM-Nf-CBC"/>
-        <segue reference="FuQ-Ws-tvR"/>
-        <segue reference="9Ww-Rh-zXs"/>
         <segue reference="gsk-mb-ijh"/>
+        <segue reference="9Ww-Rh-zXs"/>
         <segue reference="MHW-l0-LFY"/>
+        <segue reference="FuQ-Ws-tvR"/>
     </inferredMetricsTieBreakers>
 </document>
